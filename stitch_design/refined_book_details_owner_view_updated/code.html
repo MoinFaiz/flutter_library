@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #faf9f5;
+        }
+        .font-serif {
+            font-family: 'Noto Serif', serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#061b0e",
+                        "surface-container": "#eeeeea",
+                        "secondary-container": "#d9e2d8",
+                        "on-background": "#1a1c1a",
+                        "inverse-on-surface": "#f1f1ed",
+                        "surface-dim": "#dadad6",
+                        "inverse-surface": "#2f312e",
+                        "outline": "#737973",
+                        "on-primary-container": "#819986",
+                        "background": "#faf9f5",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-high": "#e8e8e4",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#5d3f42",
+                        "on-primary": "#ffffff",
+                        "surface-bright": "#faf9f5",
+                        "outline-variant": "#c3c8c1",
+                        "on-error": "#ffffff",
+                        "primary-fixed": "#d0e9d4",
+                        "tertiary-fixed": "#ffd9dc",
+                        "surface": "#faf9f5",
+                        "on-surface-variant": "#434843",
+                        "surface-container-highest": "#e2e3df",
+                        "secondary-fixed": "#dce5db",
+                        "primary-fixed-dim": "#b4cdb8",
+                        "inverse-primary": "#b4cdb8",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-low": "#f4f4f0",
+                        "tertiary": "#271013",
+                        "surface-variant": "#e2e3df",
+                        "primary-container": "#1b3022",
+                        "on-secondary-container": "#5c655d",
+                        "error": "#ba1a1a",
+                        "tertiary-container": "#3f2427",
+                        "secondary": "#586159",
+                        "error-container": "#ffdad6",
+                        "on-primary-fixed-variant": "#364c3c",
+                        "on-primary-fixed": "#0b2013",
+                        "on-surface": "#1a1c1a",
+                        "on-secondary-fixed": "#151d17",
+                        "surface-tint": "#4d6453",
+                        "on-tertiary-container": "#b0898c",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed-variant": "#404941",
+                        "tertiary-fixed-dim": "#e7bcbf",
+                        "secondary-fixed-dim": "#c0c9bf",
+                        "on-tertiary-fixed": "#2d1417"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface">
+<!-- Top Navigation Shell -->
+<header class="fixed top-0 w-full z-50 bg-white/85 backdrop-blur-xl shadow-sm shadow-emerald-900/5 flex justify-between items-center px-6 py-4">
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-emerald-950 hover:bg-stone-100 p-2 rounded-full transition-colors duration-300">arrow_back</button>
+<h1 class="font-serif text-xl font-bold text-emerald-900">Archive Details</h1>
+</div>
+<div class="flex items-center gap-2"><button class="p-2 hover:bg-stone-100 transition-colors rounded-full"><span class="material-symbols-outlined text-primary">favorite</span></button><button class="p-2 hover:bg-stone-100 transition-colors rounded-full"><span class="material-symbols-outlined text-primary">share</span></button><button class="p-2 hover:bg-stone-100 transition-colors rounded-full relative"><span class="material-symbols-outlined text-primary">shopping_cart</span><span class="absolute top-1.5 right-1.5 w-2 h-2 bg-error rounded-full"></span></button></div>
+</header>
+<main class="pt-20 pb-32 max-w-2xl mx-auto px-6">
+<!-- Hero Section: Book Cover -->
+<section class="relative mb-12">
+<div class="aspect-[3/4] w-full max-w-sm mx-auto overflow-hidden rounded-lg shadow-2xl relative z-10">
+<img alt="Whispers of the Ancient Vellum" class="w-full h-full object-cover" data-alt="Close-up of a weathered, dark green leather-bound antique book with intricate gold foil detailing on the spine and cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4Mp2Dgh1VCfQrV3YzDbqMF1j73wV6q355uZaVkYNIB8q1SdQae-iVqojsg_3d15H3-8YVr_ekGe8r_xCgog-nF5nzghaATTe1P46lkPdIBNT6OGrb8_LkJqxFkNXXQH8MWvb0rMVRrfFPXQM-iNrsE08H0IM6KT4f5MmLKZAO8qj9T2xe6BaI48jjTEGjhlQrAV9BLpXEQB-IE7xK3x-fvd2idsXNhCOCu6BOO3c_Hp_wFxLzuSBlVFYLrYHVXe_wFx32nAfcCqbs"/>
+<div class="absolute inset-0 border-[1px] border-white/10 rounded-lg pointer-events-none"></div>
+</div>
+<!-- Decorative shadow element -->
+<div class="absolute -bottom-6 left-1/2 -translate-x-1/2 w-[80%] h-12 bg-on-surface/5 blur-3xl -z-10"></div>
+</section>
+<!-- Title & Author -->
+<header class="mb-10">
+<h2 class="font-serif text-4xl lg:text-5xl font-bold tracking-tight text-primary mb-3">Whispers of the Ancient Vellum</h2>
+<p class="font-label text-lg text-on-surface-variant font-medium tracking-wide">Elias Thorne</p>
+</header>
+<!-- Category Chips -->
+<div class="flex flex-wrap gap-3 mb-12 justify-start">
+<span class="px-5 py-2 rounded-full bg-secondary-container text-on-secondary-container text-xs font-semibold tracking-wider">ENGLISH LITERATURE</span>
+<span class="px-5 py-2 rounded-full bg-secondary-container text-on-secondary-container text-xs font-semibold tracking-wider">HISTORY</span>
+<span class="px-5 py-2 rounded-full bg-secondary-container text-on-secondary-container text-xs font-semibold tracking-wider">PHILOSOPHY</span>
+</div>
+<!-- Archival Summary -->
+<section class="space-y-4 mb-12"><h3 class="text-xl font-headline font-bold text-primary border-b border-outline-variant/30 pb-2">Archival Summary</h3><div class="space-y-4 text-on-surface-variant leading-relaxed text-base"><p>An exhaustive study of pre-Renaissance manuscripts, Whispers of the Ancient Vellum delves into the tactile history of the written word. Elias Thorne masterfully weaves together chemical analysis of inks with the sociopolitical climate that birthed these fragile survivors of history. This edition serves as the definitive owner's reference for the 14th-century Oxford collection.</p></div></section>
+<!-- Bento Grid Details -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12"><div class="p-5 bg-surface-container-low rounded-lg border border-outline-variant/50"><h4 class="text-[10px] font-bold uppercase tracking-widest text-secondary mb-4">Publication Details</h4><div class="space-y-3"><div><p class="text-[9px] font-bold uppercase tracking-wider text-outline">Edition</p><p class="text-sm font-semibold text-primary">First Folio</p></div><div><p class="text-[9px] font-bold uppercase tracking-wider text-outline">Year</p><p class="text-sm font-semibold text-primary">2023</p></div><div><p class="text-[9px] font-bold uppercase tracking-wider text-outline">Page Count</p><p class="text-sm font-semibold text-primary">642 pages</p></div></div></div><div class="space-y-4"><div class="p-5 bg-surface-container-low rounded-lg border border-outline-variant/50 flex justify-between items-center"><div><h4 class="text-[10px] font-bold uppercase tracking-widest text-secondary">Publisher</h4><p class="text-sm font-semibold text-primary">Hearthstone Press</p></div><span class="material-symbols-outlined text-outline">history_edu</span></div><div class="p-5 bg-surface-container-low rounded-lg border border-outline-variant/50 flex justify-between items-center"><div><h4 class="text-[10px] font-bold uppercase tracking-widest text-secondary">Language</h4><p class="text-sm font-semibold text-primary">English (UK)</p></div><span class="material-symbols-outlined text-outline">translate</span></div></div></div>
+<!-- Critical Review Quote -->
+<div class="p-8 bg-surface-container-high rounded-lg border border-outline-variant/30 mb-12"><p class="text-lg text-primary font-headline leading-relaxed">"A work of staggering depth that treats the physical book as a sacred vessel of human consciousness. Thorne has rewritten the history of the scriptorium."</p><p class="mt-4 text-[10px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">— The Literary Chronology</p></div>
+<!-- Status Indicator (Owner Only) -->
+<div class="flex items-center justify-start gap-2 mb-8 py-3 px-6 bg-emerald-50/50 text-emerald-800 rounded-full border border-emerald-100/50 w-fit"><span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">check_circle</span><span class="text-[10px] font-bold tracking-widest uppercase">Listing Active &amp; Verified</span></div>
+</main>
+<!-- Fixed Bottom Action Bar -->
+<div class="fixed bottom-0 left-0 w-full z-50 bg-stone-50/90 backdrop-blur-lg px-6 pb-8 pt-4 border-t border-stone-200/20">
+<div class="max-w-2xl mx-auto flex items-center gap-4">
+<button class="flex-1 bg-primary text-white font-serif py-4 rounded-xl flex items-center justify-center gap-3 active:scale-95 transition-all duration-200 shadow-xl shadow-primary/10">
+<span class="material-symbols-outlined">edit_note</span>
+<span class="text-lg font-bold">Edit Listing</span>
+</button>
+<button class="bg-surface-container-highest p-4 rounded-xl text-primary active:scale-95 transition-all duration-200">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</div>
+</div>
+<!-- Navigation Shell (BottomNavBar) -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-stone-50/90 backdrop-blur-lg rounded-t-3xl border-t border-stone-200/20 shadow-[0_-4px_24px_rgba(0,0,0,0.04)] hidden md:flex">
+<div class="flex flex-col items-center justify-center text-stone-500 px-5 py-2 hover:text-emerald-800 transition-colors duration-300 cursor-pointer group">
+<span class="material-symbols-outlined">auto_stories</span>
+<span class="text-[11px] font-sans font-medium tracking-wide">Library</span>
+</div>
+<div class="flex flex-col items-center justify-center text-stone-500 px-5 py-2 hover:text-emerald-800 transition-colors duration-300 cursor-pointer group">
+<span class="material-symbols-outlined">search</span>
+<span class="text-[11px] font-sans font-medium tracking-wide">Explore</span>
+</div>
+<div class="flex flex-col items-center justify-center bg-emerald-900 text-white rounded-2xl px-5 py-2 transition-all duration-300 translate-y-[-2px] cursor-pointer">
+<span class="material-symbols-outlined">edit_note</span>
+<span class="text-[11px] font-sans font-medium tracking-wide">Edit Listing</span>
+</div>
+<div class="flex flex-col items-center justify-center text-stone-500 px-5 py-2 hover:text-emerald-800 transition-colors duration-300 cursor-pointer group">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[11px] font-sans font-medium tracking-wide">Profile</span>
+</div>
+</nav>
+</body></html>

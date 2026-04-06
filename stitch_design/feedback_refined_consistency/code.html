@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Feedback - The Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-fixed-dim": "#c0c9bf",
+                        "inverse-surface": "#2f312e",
+                        "primary": "#061b0e",
+                        "tertiary-fixed-dim": "#e7bcbf",
+                        "surface-tint": "#4d6453",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-container": "#1b3022",
+                        "tertiary": "#271013",
+                        "error-container": "#ffdad6",
+                        "on-secondary-fixed-variant": "#404941",
+                        "on-primary": "#ffffff",
+                        "surface-dim": "#dadad6",
+                        "on-surface": "#1a1c1a",
+                        "error": "#ba1a1a",
+                        "on-error": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed": "#ffd9dc",
+                        "on-background": "#1a1c1a",
+                        "inverse-primary": "#b4cdb8",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-container": "#b0898c",
+                        "on-secondary-fixed": "#151d17",
+                        "on-primary-container": "#819986",
+                        "surface-container": "#eeeeea",
+                        "outline-variant": "#c3c8c1",
+                        "secondary-container": "#d9e2d8",
+                        "tertiary-container": "#3f2427",
+                        "inverse-on-surface": "#f1f1ed",
+                        "outline": "#737973",
+                        "on-tertiary-fixed-variant": "#5d3f42",
+                        "primary-fixed-dim": "#b4cdb8",
+                        "on-tertiary-fixed": "#2d1417",
+                        "surface": "#faf9f5",
+                        "surface-container-highest": "#e2e3df",
+                        "surface-bright": "#faf9f5",
+                        "background": "#faf9f5",
+                        "on-primary-fixed-variant": "#364c3c",
+                        "surface-container-low": "#f4f4f0",
+                        "on-secondary-container": "#5c655d",
+                        "surface-container-high": "#e8e8e4",
+                        "on-primary-fixed": "#0b2013",
+                        "secondary-fixed": "#dce5db",
+                        "primary-fixed": "#d0e9d4",
+                        "on-error-container": "#93000a",
+                        "on-surface-variant": "#434843",
+                        "surface-variant": "#e2e3df",
+                        "secondary": "#586159"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; }
+        h1, h2, h3 { font-family: 'Noto Serif', serif; font-style: normal; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        select {
+            background-image: none !important;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface min-h-screen font-body">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/95 backdrop-blur-sm border-b border-outline-variant/10 flex justify-between items-center px-6 h-16">
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-primary p-2 -ml-2 rounded-full active:bg-surface-container transition-colors">
+                arrow_back
+            </button>
+<h1 class="text-xl font-bold text-primary">Feedback</h1>
+</div>
+</header>
+<main class="pt-24 px-6 max-w-2xl mx-auto pb-12">
+<section class="space-y-10">
+<header>
+<p class="text-on-surface-variant text-base leading-relaxed">
+                    Your thoughts shape the future of our digital sanctuary. Share your experiences or report an issue with the curator.
+                </p>
+</header>
+<!-- Feedback Form -->
+<div class="space-y-8">
+<!-- Rating Section -->
+<div class="space-y-4">
+<label class="block text-xs font-bold uppercase tracking-widest text-on-surface-variant">Overall Experience</label>
+<div class="flex gap-2">
+<button class="text-primary"><span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">star</span></button>
+<button class="text-primary"><span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">star</span></button>
+<button class="text-primary"><span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">star</span></button>
+<button class="text-primary"><span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">star</span></button>
+<button class="text-outline-variant"><span class="material-symbols-outlined text-3xl">star</span></button>
+</div>
+</div>
+<!-- Category Dropdown -->
+<div class="space-y-3">
+<label class="block text-xs font-bold uppercase tracking-widest text-on-surface-variant" for="category">Reason for Writing</label>
+<div class="relative">
+<select class="w-full bg-surface-container-low border border-outline-variant/30 rounded-lg px-4 py-3.5 appearance-none focus:ring-1 focus:ring-primary focus:border-primary text-on-surface text-sm" id="category">
+<option value="suggestion">Suggestion</option>
+<option value="bug">Bug Report</option>
+<option value="praise">Praise</option>
+<option value="other">Other</option>
+</select>
+<div class="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined text-xl">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Text Area -->
+<div class="space-y-3">
+<label class="block text-xs font-bold uppercase tracking-widest text-on-surface-variant" for="comments">Detailed Thoughts</label>
+<textarea class="w-full bg-surface-container-low border border-outline-variant/30 rounded-lg px-4 py-4 focus:ring-1 focus:ring-primary focus:border-primary text-on-surface text-sm resize-none" id="comments" placeholder="Describe your experience or the issue you encountered..." rows="6"></textarea>
+</div>
+<!-- Action Button -->
+<div class="pt-2">
+<button class="w-full bg-primary text-on-primary font-bold py-4 rounded-lg text-base transition-all active:opacity-90 flex items-center justify-center gap-2">
+                        Submit 
+                        <span class="material-symbols-outlined text-lg">send</span>
+</button>
+</div>
+</div>
+<!-- Contextual Card -->
+<div class="bg-surface-container-low border border-outline-variant/20 p-5 rounded-lg flex items-start gap-4">
+<span class="material-symbols-outlined text-primary mt-0.5">info</span>
+<div>
+<h3 class="text-base font-bold text-primary mb-1">Human Review</h3>
+<p class="text-sm text-on-surface-variant leading-relaxed">Our librarians review all feedback within 48 hours. Thank you for contributing to the preservation of our digital collection.</p>
+</div>
+</div>
+</section>
+</main>
+</body></html>

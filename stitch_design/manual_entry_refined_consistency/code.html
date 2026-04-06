@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Manual Entry - The Tactile Archive</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries">
+        // Simple toggle for category selection
+        document.querySelectorAll('button[type="button"]').forEach(btn => {
+            btn.addEventListener('click', function() {
+                if(this.textContent.includes('Add')) return;
+                const isActive = this.classList.contains('bg-primary');
+                if (isActive) {
+                    this.classList.remove('bg-primary', 'text-on-primary');
+                    this.classList.add('bg-surface-container', 'text-on-surface-variant');
+                } else {
+                    this.classList.add('bg-primary', 'text-on-primary');
+                    this.classList.remove('bg-surface-container', 'text-on-surface-variant');
+                }
+            });
+        });
+    </script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-highest": "#e2e3df",
+                        "tertiary-fixed-dim": "#e7bcbf",
+                        "on-surface": "#1a1c1a",
+                        "inverse-on-surface": "#f1f1ed",
+                        "on-tertiary-fixed-variant": "#5d3f42",
+                        "secondary-fixed": "#dce5db",
+                        "on-secondary-container": "#5c655d",
+                        "surface-bright": "#faf9f5",
+                        "surface": "#faf9f5",
+                        "inverse-primary": "#b4cdb8",
+                        "tertiary-fixed": "#ffd9dc",
+                        "on-secondary-fixed": "#151d17",
+                        "on-error-container": "#93000a",
+                        "tertiary": "#271013",
+                        "surface-container-high": "#e8e8e4",
+                        "on-tertiary": "#ffffff",
+                        "surface-container": "#eeeeea",
+                        "secondary-fixed-dim": "#c0c9bf",
+                        "on-primary-container": "#819986",
+                        "outline": "#737973",
+                        "surface-dim": "#dadad6",
+                        "inverse-surface": "#2f312e",
+                        "primary-fixed": "#d0e9d4",
+                        "surface-tint": "#4d6453",
+                        "primary-fixed-dim": "#b4cdb8",
+                        "surface-container-low": "#f4f4f0",
+                        "on-tertiary-container": "#b0898c",
+                        "on-secondary-fixed-variant": "#404941",
+                        "outline-variant": "#c3c8c1",
+                        "on-error": "#ffffff",
+                        "secondary-container": "#d9e2d8",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "surface-variant": "#e2e3df",
+                        "on-surface-variant": "#434843",
+                        "on-primary-fixed": "#0b2013",
+                        "secondary": "#586159",
+                        "on-primary-fixed-variant": "#364c3c",
+                        "on-tertiary-fixed": "#2d1417",
+                        "error-container": "#ffdad6",
+                        "on-background": "#1a1c1a",
+                        "primary": "#061b0e",
+                        "error": "#ba1a1a",
+                        "primary-container": "#1b3022",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#3f2427",
+                        "background": "#faf9f5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            min-height: 100dvh;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar -->
+<header class="bg-surface/90 backdrop-blur-md fixed top-0 w-full z-50 border-b border-outline-variant/30 flex justify-between items-center px-4 h-14">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-primary">arrow_back</span>
+</button>
+<h1 class="font-headline font-bold text-xl text-primary">The Tactile Archive</h1>
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-primary">help_outline</span>
+</button>
+</header>
+<main class="pt-20 pb-24 px-4 max-w-xl mx-auto">
+<!-- Image Upload -->
+<section class="mb-8">
+<div class="relative group cursor-pointer">
+<input accept="image/*" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer z-10" type="file"/>
+<div class="aspect-[4/5] w-64 mx-auto bg-surface-container-low border border-outline-variant rounded-xl flex flex-col items-center justify-center gap-3 hover:bg-surface-container transition-colors">
+<div class="w-12 h-12 bg-white rounded-full flex items-center justify-center border border-outline-variant shadow-sm">
+<span class="material-symbols-outlined text-2xl text-primary/70">add_a_photo</span>
+</div>
+<div class="text-center px-4">
+<p class="font-bold text-primary text-sm">Add Photo of Front</p>
+<p class="text-[11px] text-on-surface-variant mt-0.5">Capture the cover for the archive</p>
+</div>
+</div>
+</div>
+<!-- Error Notice -->
+<div class="mt-8 text-center px-4">
+<div class="flex items-center justify-center gap-2 mb-1">
+<span class="material-symbols-outlined text-error text-lg">search_off</span>
+<h2 class="font-headline text-base font-bold text-primary uppercase tracking-tight">Book Not Found</h2>
+</div>
+<p class="text-on-surface-variant text-sm leading-normal">This ISBN was not found. Please enter details manually.</p>
+</div>
+</section>
+<!-- Manual Entry Form -->
+<form class="space-y-6">
+<div class="space-y-5">
+<div class="space-y-1.5">
+<label class="block text-[11px] uppercase tracking-wider font-bold text-on-surface-variant ml-1">Book Title</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant rounded-lg py-3 px-4 text-base font-headline placeholder:text-outline-variant focus:border-primary focus:ring-0 transition-all" placeholder="Enter full title" type="text"/>
+</div>
+<div class="grid grid-cols-1 gap-5">
+<div class="space-y-1.5">
+<label class="block text-[11px] uppercase tracking-wider font-bold text-on-surface-variant ml-1">Author Name</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant rounded-lg py-3 px-4 text-sm placeholder:text-outline-variant focus:border-primary focus:ring-0 transition-all" placeholder="e.g. Virginia Woolf" type="text"/>
+</div>
+<div class="space-y-1.5">
+<label class="block text-[11px] uppercase tracking-wider font-bold text-on-surface-variant ml-1">Publisher</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant rounded-lg py-3 px-4 text-sm placeholder:text-outline-variant focus:border-primary focus:ring-0 transition-all" placeholder="Hogarth Press" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-1.5">
+<label class="block text-[11px] uppercase tracking-wider font-bold text-on-surface-variant ml-1">Year</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant rounded-lg py-3 px-4 text-sm placeholder:text-outline-variant focus:border-primary focus:ring-0 transition-all" placeholder="1925" type="number"/>
+</div>
+<div class="space-y-1.5">
+<label class="block text-[11px] uppercase tracking-wider font-bold text-on-surface-variant ml-1">Pages</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant rounded-lg py-3 px-4 text-sm placeholder:text-outline-variant focus:border-primary focus:ring-0 transition-all" placeholder="240" type="number"/>
+</div>
+</div>
+<div class="space-y-1.5">
+<label class="block text-[11px] uppercase tracking-wider font-bold text-on-surface-variant ml-1">Language</label>
+<select class="w-full bg-surface-container-lowest border border-outline-variant rounded-lg py-3 px-4 text-sm focus:border-primary focus:ring-0 transition-all appearance-none">
+<option>English</option>
+<option>French</option>
+<option>German</option>
+<option>Spanish</option>
+<option>Japanese</option>
+</select>
+</div>
+</div>
+<!-- Categories -->
+<div class="space-y-3">
+<label class="block text-[11px] uppercase tracking-wider font-bold text-on-surface-variant ml-1">Genre &amp; Categories</label>
+<div class="flex flex-wrap gap-2"><button class="px-4 py-2 rounded-md bg-primary text-on-primary text-xs font-bold uppercase tracking-wider transition-all" type="button">Fiction</button>
+<button class="px-4 py-2 rounded-md bg-surface-container text-on-surface-variant text-xs font-bold uppercase tracking-wider transition-all hover:bg-surface-container-high" type="button">Philosophy</button>
+<button class="px-4 py-2 rounded-md bg-surface-container text-on-surface-variant text-xs font-bold uppercase tracking-wider transition-all hover:bg-surface-container-high" type="button">History</button>
+<button class="px-4 py-2 rounded-md bg-surface-container text-on-surface-variant text-xs font-bold uppercase tracking-wider transition-all hover:bg-surface-container-high" type="button">Poetry</button>
+<button class="px-3 py-2 rounded-md border border-dashed border-outline text-on-surface-variant text-xs font-bold uppercase tracking-wider flex items-center gap-1 hover:border-primary hover:text-primary transition-all" type="button">
+<span class="material-symbols-outlined text-sm">add</span>
+                        Add Custom
+                    </button></div>
+</div>
+<!-- Synopsis -->
+<div class="space-y-1.5">
+<label class="block text-[11px] uppercase tracking-wider font-bold text-on-surface-variant ml-1">Synopsis / Description</label>
+<textarea class="w-full bg-surface-container-lowest border border-outline-variant rounded-lg py-3 px-4 text-sm focus:border-primary focus:ring-0 transition-all resize-none leading-relaxed" placeholder="Summarize the content..." rows="4"></textarea>
+</div>
+<!-- Action -->
+<div class="pt-4">
+<button class="w-full bg-primary text-on-primary py-4 rounded-lg font-bold text-sm tracking-wide flex items-center justify-center gap-2 hover:bg-primary/90 transition-all active:scale-[0.98]" type="submit">
+                    Next Step: Condition &amp; Media
+                    <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+<p class="text-center text-on-surface-variant text-[11px] mt-6 font-medium uppercase tracking-widest opacity-60">Secure Archive Transmission</p>
+</div>
+</form>
+</main>
+<script>
+        // Simple toggle for category selection
+        document.querySelectorAll('button[type="button"]').forEach(btn => {
+            btn.addEventListener('click', function() {
+                if(this.textContent.includes('Add')) return;
+                const isActive = this.classList.contains('bg-primary');
+                if (isActive) {
+                    this.classList.remove('bg-primary', 'text-on-primary');
+                    this.classList.add('bg-surface-container', 'text-on-surface-variant');
+                } else {
+                    this.classList.add('bg-primary', 'text-on-primary');
+                    this.classList.remove('bg-surface-container', 'text-on-surface-variant');
+                }
+            });
+        });
+    </script>
+</body></html>

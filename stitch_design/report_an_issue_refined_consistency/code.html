@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Report an Issue</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&amp;family=Noto+Serif:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#b4cdb8",
+                        "on-secondary": "#ffffff",
+                        "surface-container": "#eeeeea",
+                        "tertiary-fixed-dim": "#e7bcbf",
+                        "primary": "#061b0e",
+                        "on-secondary-container": "#5c655d",
+                        "on-error": "#ffffff",
+                        "secondary": "#586159",
+                        "primary-fixed": "#d0e9d4",
+                        "surface-tint": "#4d6453",
+                        "on-primary-container": "#819986",
+                        "on-tertiary-container": "#b0898c",
+                        "surface-container-low": "#f4f4f0",
+                        "secondary-fixed": "#dce5db",
+                        "error-container": "#ffdad6",
+                        "inverse-surface": "#2f312e",
+                        "on-background": "#1a1c1a",
+                        "secondary-container": "#d9e2d8",
+                        "tertiary-fixed": "#ffd9dc",
+                        "surface-variant": "#e2e3df",
+                        "on-secondary-fixed": "#151d17",
+                        "primary-fixed-dim": "#b4cdb8",
+                        "on-surface-variant": "#434843",
+                        "surface": "#faf9f5",
+                        "surface-bright": "#faf9f5",
+                        "inverse-on-surface": "#f1f1ed",
+                        "on-secondary-fixed-variant": "#404941",
+                        "outline-variant": "#c3c8c1",
+                        "on-tertiary-fixed-variant": "#5d3f42",
+                        "on-primary-fixed": "#0b2013",
+                        "on-surface": "#1a1c1a",
+                        "primary-container": "#1b3022",
+                        "background": "#faf9f5",
+                        "on-error-container": "#93000a",
+                        "tertiary-container": "#3f2427",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-highest": "#e2e3df",
+                        "on-primary-fixed-variant": "#364c3c",
+                        "outline": "#737973",
+                        "on-tertiary-fixed": "#2d1417",
+                        "surface-container-high": "#e8e8e4",
+                        "surface-dim": "#dadad6",
+                        "tertiary": "#271013",
+                        "secondary-fixed-dim": "#c0c9bf",
+                        "error": "#ba1a1a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif", "serif"],
+                        "body": ["Manrope", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        h1, h2, h3, .font-headline {
+            font-family: 'Noto Serif', serif;
+        }
+        /* Uniform input styles */
+        select, textarea {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface min-h-screen flex flex-col items-center">
+<div class="w-full max-w-[480px] flex flex-col min-h-screen bg-surface">
+<!-- TopAppBar -->
+<header class="sticky top-0 z-10 bg-surface border-b border-outline-variant/30 px-4 py-4 flex items-center">
+<button class="flex items-center justify-center w-10 h-10 -ml-2 rounded-full text-on-surface hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined" style="font-variation-settings: 'wght' 300;">arrow_back</span>
+</button>
+<h1 class="flex-1 text-center font-headline text-lg font-bold text-on-surface">Report an Issue</h1>
+<div class="w-10 h-10"></div>
+</header>
+<main class="flex-1 px-5 py-8 flex flex-col gap-8">
+<section class="flex flex-col gap-6">
+<!-- Category Select -->
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant ml-0.5" for="category">Category</label>
+<div class="relative">
+<select class="w-full appearance-none bg-surface-container-high border border-outline-variant/50 rounded-lg py-3.5 px-4 text-on-surface font-body text-sm focus:ring-1 focus:ring-primary focus:border-primary transition-all outline-none" id="category">
+<option disabled="" selected="" value="">Select an issue category</option>
+<option value="app_bug">App Bug</option>
+<option value="metadata">Incorrect Metadata</option>
+<option value="physical">Broken Binding (Physical)</option>
+<option value="other">Other</option>
+</select>
+<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-xl">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Severity Select -->
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant ml-0.5" for="severity">Severity</label>
+<div class="relative">
+<select class="w-full appearance-none bg-surface-container-high border border-outline-variant/50 rounded-lg py-3.5 px-4 text-on-surface font-body text-sm focus:ring-1 focus:ring-primary focus:border-primary transition-all outline-none" id="severity">
+<option disabled="" selected="" value="">Select severity level</option>
+<option value="low">Low - Minor inconvenience</option>
+<option value="medium">Medium - Prevents some actions</option>
+<option value="high">High - Completely broken</option>
+</select>
+<div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-xl">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Description Textarea -->
+<div class="flex flex-col gap-1.5">
+<label class="text-xs font-semibold uppercase tracking-wider text-on-surface-variant ml-0.5" for="description">Description</label>
+<textarea class="w-full bg-surface-container-high border border-outline-variant/50 rounded-lg p-4 text-on-surface font-body text-sm focus:ring-1 focus:ring-primary focus:border-primary transition-all outline-none resize-none placeholder-on-surface-variant/50" id="description" placeholder="Describe the issue in detail..." rows="5"></textarea>
+</div>
+</section>
+<!-- Attachments Section -->
+<section class="flex flex-col gap-4">
+<h2 class="font-headline text-lg font-bold text-on-surface">Attachments (Optional)</h2>
+<div class="border border-dashed border-outline-variant rounded-lg p-10 flex flex-col items-center justify-center gap-3 bg-surface-container-lowest transition-colors hover:bg-surface-container-low cursor-pointer">
+<span class="material-symbols-outlined text-3xl text-on-surface-variant" style="font-variation-settings: 'wght' 200;">add_photo_alternate</span>
+<div class="text-center">
+<p class="text-sm font-medium text-on-surface font-body">Tap to upload photos</p>
+<p class="text-xs text-on-surface-variant mt-1 max-w-[240px]">Useful for physical damage or complex UI bugs.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Fixed Bottom Action -->
+<div class="p-5 bg-surface border-t border-outline-variant/30">
+<button class="w-full bg-primary text-on-primary font-medium py-4 rounded-lg transition-all hover:opacity-95 active:scale-[0.99] font-body text-sm flex items-center justify-center gap-2 uppercase tracking-widest shadow-sm">
+<span>Submit Report</span>
+<span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+</div>
+</div>
+</body></html>

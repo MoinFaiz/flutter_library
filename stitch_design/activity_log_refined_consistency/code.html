@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Activity &amp; Notifications | The Tactile Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error-container": "#93000a",
+                        "surface-bright": "#faf9f5",
+                        "tertiary-fixed-dim": "#e7bcbf",
+                        "secondary-container": "#d9e2d8",
+                        "on-error": "#ffffff",
+                        "on-secondary-container": "#5c655d",
+                        "error": "#ba1a1a",
+                        "surface-container-highest": "#e2e3df",
+                        "inverse-primary": "#b4cdb8",
+                        "outline": "#737973",
+                        "tertiary": "#271013",
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed": "#0b2013",
+                        "inverse-surface": "#2f312e",
+                        "on-surface-variant": "#434843",
+                        "on-primary-container": "#819986",
+                        "error-container": "#ffdad6",
+                        "tertiary-container": "#3f2427",
+                        "surface-tint": "#4d6453",
+                        "primary-container": "#1b3022",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-variant": "#e2e3df",
+                        "background": "#faf9f5",
+                        "on-surface": "#1a1c1a",
+                        "secondary": "#586159",
+                        "on-tertiary": "#ffffff",
+                        "on-background": "#1a1c1a",
+                        "on-tertiary-fixed-variant": "#5d3f42",
+                        "surface-container-high": "#e8e8e4",
+                        "primary-fixed": "#d0e9d4",
+                        "secondary-fixed": "#dce5db",
+                        "surface-dim": "#dadad6",
+                        "on-primary-fixed-variant": "#364c3c",
+                        "primary-fixed-dim": "#b4cdb8",
+                        "inverse-on-surface": "#f1f1ed",
+                        "on-tertiary-fixed": "#2d1417",
+                        "on-secondary": "#ffffff",
+                        "outline-variant": "#c3c8c1",
+                        "tertiary-fixed": "#ffd9dc",
+                        "on-secondary-fixed": "#151d17",
+                        "primary": "#061b0e",
+                        "surface-container": "#eeeeea",
+                        "on-secondary-fixed-variant": "#404941",
+                        "secondary-fixed-dim": "#c0c9bf",
+                        "surface-container-low": "#f4f4f0",
+                        "on-tertiary-container": "#b0898c",
+                        "surface": "#faf9f5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #faf9f5;
+        }
+    </style>
+</head>
+<body class="text-on-surface antialiased mb-24">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-stone-50 border-b border-stone-200 flex justify-between items-center px-6 h-16">
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-emerald-950 p-2">menu</button>
+<h1 class="text-xl font-headline font-bold tracking-tight text-emerald-950 uppercase">The Tactile Archive</h1>
+</div>
+<div class="flex items-center gap-2">
+<button class="material-symbols-outlined text-emerald-950 p-2">search</button>
+</div>
+</header>
+<main class="pt-24 px-4 md:px-8 max-w-4xl mx-auto min-h-screen">
+<!-- Page Title -->
+<div class="mb-10">
+<span class="text-stone-500 font-label text-[10px] uppercase tracking-[0.2em] font-bold mb-2 block">Updates &amp; Interactions</span>
+<h2 class="text-3xl font-headline font-bold text-primary tracking-tight leading-none mb-4">Activity Log</h2>
+<p class="font-body text-base text-on-surface-variant max-w-md">Your curated feed of library movements, requests, and reminders across the archive.</p>
+</div>
+<!-- Notification List -->
+<div class="space-y-4">
+<!-- Type: Rent Request -->
+<div class="bg-surface-container-low p-6 border-l border-emerald-800">
+<div class="flex items-start gap-5">
+<div class="bg-primary-fixed p-3 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">auto_stories</span>
+</div>
+<div class="flex-1">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline font-bold text-lg text-primary">Rent Request</h3>
+<span class="text-[10px] uppercase font-bold tracking-widest text-stone-400">14m ago</span>
+</div>
+<p class="font-body text-base text-on-surface-variant mb-4">
+<span class="font-bold text-on-surface">Julian Vane</span> is requesting to borrow "The Shadow of the Wind" for 14 days.
+                    </p>
+<div class="flex gap-4">
+<button class="px-6 py-2 bg-primary text-on-primary text-xs font-bold uppercase tracking-widest">Approve</button>
+<button class="px-6 py-2 border border-outline-variant text-on-surface-variant text-xs font-bold uppercase tracking-widest">Deny</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Type: Book Due Reminder -->
+<div class="bg-white p-6 border-l border-tertiary">
+<div class="flex items-start gap-5">
+<div class="bg-tertiary-fixed p-3 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined">event_busy</span>
+</div>
+<div class="flex-1">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline font-bold text-lg text-primary">Return Overdue</h3>
+<span class="text-[10px] uppercase font-bold tracking-widest text-stone-400">2h ago</span>
+</div>
+<p class="font-body text-base text-on-surface-variant mb-4">
+                        Your rental of "Collected Fictions" by Jorge Luis Borges was due yesterday. Please return to avoid archive points deduction.
+                    </p>
+<button class="px-6 py-2 bg-primary text-on-primary text-xs font-bold uppercase tracking-widest">Return Now</button>
+</div>
+</div>
+</div>
+<!-- Type: New Favorites Alert -->
+<div class="bg-surface-container-low p-6 border-l border-emerald-600">
+<div class="flex items-start gap-5">
+<div class="bg-primary-fixed p-3 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">star</span>
+</div>
+<div class="flex-1">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline font-bold text-lg text-primary">Favorite Author Update</h3>
+<span class="text-[10px] uppercase font-bold tracking-widest text-stone-400">5h ago</span>
+</div>
+<p class="font-body text-base text-on-surface-variant">
+                        A first edition of "The Name of the Rose" has just been added to the archive. As an Umberto Eco follower, you have priority access.
+                    </p>
+</div>
+</div>
+</div>
+<!-- Type: Purchase Request -->
+<div class="bg-white p-6 border-l border-stone-300">
+<div class="flex items-start gap-5">
+<div class="bg-secondary-container p-3 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">shopping_bag</span>
+</div>
+<div class="flex-1">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline font-bold text-lg text-primary">Order Confirmation</h3>
+<span class="text-[10px] uppercase font-bold tracking-widest text-stone-400">Yesterday</span>
+</div>
+<p class="font-body text-base text-on-surface-variant mb-4">
+                        Your purchase of the Librarian's Choice: Essential Classics Bundle has been processed successfully.
+                    </p>
+<button class="px-6 py-2 border border-outline-variant text-on-surface text-xs font-bold uppercase tracking-widest">View Order</button>
+</div>
+</div>
+</div>
+<!-- Date Divider -->
+<div class="pt-8 pb-4">
+<h4 class="font-label text-[10px] uppercase tracking-[0.3em] font-bold text-stone-400">Archived Earlier</h4>
+</div>
+<!-- Simple List Row -->
+<div class="flex items-center gap-5 px-6 py-4 bg-surface-container-low border-l border-stone-200">
+<span class="material-symbols-outlined text-stone-400">person_add</span>
+<p class="font-body text-base text-on-surface-variant flex-1">
+<span class="font-bold text-on-surface">Clara Oswald</span> started following your reading list.
+            </p>
+<span class="text-[10px] font-bold text-stone-400 uppercase">2d</span>
+</div>
+</div>
+<!-- Simple Info Section -->
+<div class="mt-16 mb-8 flex justify-end">
+<div class="w-full md:w-1/2 p-8 bg-primary text-on-primary">
+<h4 class="font-headline font-bold text-xl mb-3 uppercase tracking-wider">Librarian Tip</h4>
+<p class="font-body text-base opacity-90 leading-relaxed">Librarians who respond to rent requests within 2 hours increase their Archivist Trust score by 15%.</p>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 w-full z-50 bg-white border-t border-stone-200 flex justify-around items-center h-16">
+<button class="flex flex-col items-center justify-center text-stone-400 hover:text-emerald-900 transition-colors">
+<span class="material-symbols-outlined">auto_stories</span>
+<span class="font-label uppercase text-[9px] tracking-widest font-bold mt-1">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-stone-400 hover:text-emerald-900 transition-colors">
+<span class="material-symbols-outlined">search</span>
+<span class="font-label uppercase text-[9px] tracking-widest font-bold mt-1">Explore</span>
+</button>
+<button class="flex flex-col items-center justify-center text-stone-400 hover:text-emerald-900 transition-colors">
+<span class="material-symbols-outlined">local_library</span>
+<span class="font-label uppercase text-[9px] tracking-widest font-bold mt-1">Library</span>
+</button>
+<button class="flex flex-col items-center justify-center text-emerald-950">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">notifications</span>
+<span class="font-label uppercase text-[9px] tracking-widest font-bold mt-1">Activity</span>
+</button>
+<button class="flex flex-col items-center justify-center text-stone-400 hover:text-emerald-900 transition-colors">
+<span class="material-symbols-outlined">person</span>
+<span class="font-label uppercase text-[9px] tracking-widest font-bold mt-1">Profile</span>
+</button>
+</nav>
+</body></html>

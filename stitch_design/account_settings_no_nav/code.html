@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Account Settings - The Tactile Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed-variant": "#5d3f42",
+                        "tertiary-fixed": "#ffd9dc",
+                        "surface-container": "#eeeeea",
+                        "surface-tint": "#4d6453",
+                        "surface-variant": "#e2e3df",
+                        "on-primary-fixed-variant": "#364c3c",
+                        "outline-variant": "#c3c8c1",
+                        "primary": "#061b0e",
+                        "tertiary": "#271013",
+                        "on-primary-container": "#819986",
+                        "primary-fixed-dim": "#b4cdb8",
+                        "on-error-container": "#93000a",
+                        "surface-container-low": "#f4f4f0",
+                        "tertiary-container": "#3f2427",
+                        "background": "#faf9f5",
+                        "on-error": "#ffffff",
+                        "primary-fixed": "#d0e9d4",
+                        "surface-bright": "#faf9f5",
+                        "primary-container": "#1B3022",
+                        "on-primary": "#ffffff",
+                        "surface-container-highest": "#e2e3df",
+                        "secondary-fixed-dim": "#c0c9bf",
+                        "on-tertiary-fixed": "#2d1417",
+                        "inverse-primary": "#b4cdb8",
+                        "error-container": "#ffdad6",
+                        "on-secondary-fixed": "#151d17",
+                        "on-tertiary-container": "#b0898c",
+                        "on-surface": "#1a1c1a",
+                        "outline": "#737973",
+                        "on-surface-variant": "#434843",
+                        "on-secondary-fixed-variant": "#404941",
+                        "inverse-on-surface": "#f1f1ed",
+                        "surface": "#faf9f5",
+                        "on-primary-fixed": "#0b2013",
+                        "inverse-surface": "#2f312e",
+                        "tertiary-fixed-dim": "#e7bcbf",
+                        "on-secondary-container": "#5c655d",
+                        "surface-dim": "#dadad6",
+                        "surface-container-high": "#e8e8e4",
+                        "on-secondary": "#ffffff",
+                        "on-background": "#1a1c1a",
+                        "error": "#ba1a1a",
+                        "secondary-fixed": "#dce5db",
+                        "on-tertiary": "#ffffff",
+                        "secondary-container": "#d9e2d8",
+                        "secondary": "#586159",
+                        "surface-container-lowest": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "4px",
+                        "lg": "8px",
+                        "xl": "12px",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif", "serif"],
+                        "body": ["Manrope", "sans-serif"],
+                        "label": ["Manrope", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Manrope', sans-serif; background-color: #faf9f5; }
+        .font-serif { font-family: 'Noto Serif', serif; }
+        .font-sans { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-surface antialiased">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Consistent TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-[#faf9f5]/85 backdrop-blur-md shadow-[0_0_32px_rgba(26,28,26,0.06)] flex items-center px-6 h-16">
+<button class="flex h-10 w-10 items-center justify-start rounded-full transition-colors active:bg-surface-container">
+<span class="material-symbols-outlined text-on-surface">arrow_back</span>
+</button>
+<h1 class="flex-1 text-center text-2xl font-serif font-bold tracking-tight text-[#061b0e]">Account Settings</h1>
+<div class="w-10"></div>
+</header>
+<main class="pt-24 px-6 max-w-2xl mx-auto w-full space-y-12 pb-12">
+<!-- Personal Profile Section -->
+<section>
+<h2 class="font-serif text-3xl font-bold text-primary mb-8">Personal Profile</h2>
+<!-- Avatar Upload (Bibliotheca Ivory Aesthetic) -->
+<div class="bg-surface-container-low rounded-lg p-8 border border-outline-variant/30 flex flex-col items-center gap-6 mb-10 shadow-sm">
+<div class="relative group">
+<div class="h-32 w-32 rounded-full overflow-hidden ring-4 ring-surface-container-high ring-offset-4 ring-offset-background">
+<img alt="Julian Thorne" class="h-full w-full object-cover" data-alt="Portrait of a sophisticated man in his 30s with a thoughtful expression, warm studio lighting, soft cream background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApGcaPh2fmSsLKG905vrDuDzJaCH5-I2DqiwfHO1dq3nuGi4gxX18UvztP-yKTMgJTQqWpebVCIzkn1G1MhHfT4IYKGAiP4_EM8951blzQji_9pGojPZD1OSMN3AEQ4hS-pkZ1tDn1R_qSCcOvtBUgwqbhKfH2NlJca49VS_DAQmH17HNdaK4zLyebo-9h4kfIfwZ4fN_P4u9X0cN9Awpqz0fdzR05hoybXfilgK6779TNVRPkyIetPsSxCJiMgFPbqVjZ4wp6hoK0"/>
+</div>
+<div class="absolute bottom-1 right-1 bg-primary text-on-primary p-2 rounded-full shadow-lg flex items-center justify-center cursor-pointer">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">edit</span>
+</div>
+</div>
+<div class="text-center">
+<button class="font-sans text-[10px] font-bold uppercase tracking-widest text-primary hover:opacity-70 transition-opacity">Change profile photo</button>
+</div>
+</div>
+<!-- Input Fields -->
+<div class="space-y-6">
+<div class="space-y-6">
+<div class="flex flex-col gap-2">
+<label class="font-sans text-[10px] font-bold uppercase tracking-widest text-on-surface-variant px-1">Full Name</label>
+<input class="w-full bg-surface-container-highest/40 border-none rounded-lg h-14 px-5 font-sans text-on-surface focus:ring-2 focus:ring-primary/20 transition-all" type="text" value="Julian Thorne"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-sans text-[10px] font-bold uppercase tracking-widest text-on-surface-variant px-1">Email Address</label>
+<input class="w-full bg-surface-container-highest/40 border-none rounded-lg h-14 px-5 font-sans text-on-surface focus:ring-2 focus:ring-primary/20 transition-all" type="email" value="julian.thorne@tactilearchive.com"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-sans text-[10px] font-bold uppercase tracking-widest text-on-surface-variant px-1">Phone Number</label>
+<input class="w-full bg-surface-container-highest/40 border-none rounded-lg h-14 px-5 font-sans text-on-surface focus:ring-2 focus:ring-primary/20 transition-all" type="tel" value="+1 (555) 892-0012"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-sans text-[10px] font-bold uppercase tracking-widest text-on-surface-variant px-1">Mailing Address</label>
+<input class="w-full bg-surface-container-highest/40 border-none rounded-lg h-14 px-5 font-sans text-on-surface focus:ring-2 focus:ring-primary/20 transition-all" type="text" value="74 Blackwood Terrace, London, UK"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="font-sans text-[10px] font-bold uppercase tracking-widest text-on-surface-variant px-1">Personal Bio</label>
+<textarea class="w-full bg-surface-container-highest/40 border-none rounded-lg p-5 font-sans text-sm text-on-surface focus:ring-2 focus:ring-primary/20 transition-all resize-none leading-relaxed" rows="4">Curator of the Oxford Digital Sanctuary Collection. Passionate about 19th-century classics and modern magical realism. Always looking for rare tactile editions.</textarea>
+</div>
+</div>
+</div>
+</section>
+<!-- Notification Preferences Section -->
+<section>
+<h2 class="font-serif text-3xl font-bold text-primary mb-8 border-b border-outline-variant/30 pb-3">Notification Preferences</h2>
+<div class="bg-surface-container-low rounded-lg overflow-hidden border border-outline-variant/20 shadow-sm divide-y divide-outline-variant/10">
+<div class="p-6 flex items-center justify-between">
+<div class="flex flex-col gap-1 pr-4">
+<span class="font-sans font-bold text-sm text-on-surface">Rent Request</span>
+<span class="font-sans text-xs text-on-surface-variant">Notify me when someone wants to borrow my books</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+<div class="p-6 flex items-center justify-between">
+<div class="flex flex-col gap-1 pr-4">
+<span class="font-sans font-bold text-sm text-on-surface">Purchase Request</span>
+<span class="font-sans text-xs text-on-surface-variant">Notify me when someone makes an offer to buy</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+<div class="p-6 flex items-center justify-between">
+<div class="flex flex-col gap-1 pr-4">
+<span class="font-sans font-bold text-sm text-on-surface">New Book Arrival</span>
+<span class="font-sans text-xs text-on-surface-variant">Alerts for books matching my wishlist criteria</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+<div class="p-6 flex items-center justify-between">
+<div class="flex flex-col gap-1 pr-4">
+<span class="font-sans font-bold text-sm text-on-surface">Book Due Reminders</span>
+<span class="font-sans text-xs text-on-surface-variant">Reminders for upcoming return deadlines</span>
+</div>
+<label class="relative inline-flex items-center cursor-pointer">
+<input checked="" class="sr-only peer" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary"></div>
+</label>
+</div>
+</div>
+</section>
+<!-- Actions (Consistent with Profile Sign Out button) -->
+<div class="pt-8 space-y-4">
+<button class="w-full bg-[#1B3022] text-white py-4 rounded-lg font-sans font-bold uppercase text-[10px] tracking-widest flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+                    Update Settings
+                </button>
+<button class="w-full bg-transparent text-on-surface-variant border border-outline-variant/30 py-4 rounded-lg font-sans font-bold uppercase text-[10px] tracking-widest flex items-center justify-center gap-2 hover:bg-surface-container-low transition-all">
+                    Discard Changes
+                </button>
+</div>
+</main>
+<!-- Consistent BottomNavBar (Inactive state for settings) -->
+</div>
+</body></html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>The Tactile Archive - Discover</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error-container": "#93000a",
+                        "surface-bright": "#faf9f5",
+                        "tertiary-fixed-dim": "#e7bcbf",
+                        "secondary-container": "#d9e2d8",
+                        "on-error": "#ffffff",
+                        "on-secondary-container": "#5c655d",
+                        "error": "#ba1a1a",
+                        "surface-container-highest": "#e2e3df",
+                        "inverse-primary": "#b4cdb8",
+                        "outline": "#737973",
+                        "tertiary": "#271013",
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed": "#0b2013",
+                        "inverse-surface": "#2f312e",
+                        "on-surface-variant": "#434843",
+                        "on-primary-container": "#819986",
+                        "error-container": "#ffdad6",
+                        "tertiary-container": "#3f2427",
+                        "surface-tint": "#4d6453",
+                        "primary-container": "#1b3022",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-variant": "#e2e3df",
+                        "background": "#faf9f5",
+                        "on-surface": "#1a1c1a",
+                        "secondary": "#586159",
+                        "on-tertiary": "#ffffff",
+                        "on-background": "#1a1c1a",
+                        "on-tertiary-fixed-variant": "#5d3f42",
+                        "surface-container-high": "#e8e8e4",
+                        "primary-fixed": "#d0e9d4",
+                        "secondary-fixed": "#dce5db",
+                        "surface-dim": "#dadad6",
+                        "on-primary-fixed-variant": "#364c3c",
+                        "primary-fixed-dim": "#b4cdb8",
+                        "inverse-on-surface": "#f1f1ed",
+                        "on-tertiary-fixed": "#2d1417",
+                        "on-secondary": "#ffffff",
+                        "outline-variant": "#c3c8c1",
+                        "tertiary-fixed": "#ffd9dc",
+                        "on-secondary-fixed": "#151d17",
+                        "primary": "#061b0e",
+                        "surface-container": "#eeeeea",
+                        "on-secondary-fixed-variant": "#404941",
+                        "secondary-fixed-dim": "#c0c9bf",
+                        "surface-container-low": "#f4f4f0",
+                        "on-tertiary-container": "#b0898c",
+                        "surface": "#faf9f5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; background-color: #faf9f5; -webkit-font-smoothing: antialiased; }
+        .font-serif { font-family: 'Noto Serif', serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+        ::-webkit-scrollbar { display: none; }
+        @media (max-width: 768px) { .asymmetric-grid { grid-template-columns: 1fr; } }
+        .asymmetric-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 1.5rem; }
+    </style>
+<style>
+        body {
+            min-height: max(884px, 100dvh);
+        }
+    </style>
+</head>
+<body class="text-on-surface selection:bg-primary-fixed selection:text-primary pb-24 md:pb-0">
+<!-- TopAppBar -->
+<header class="bg-surface/95 backdrop-blur-md fixed top-0 w-full z-50 flex justify-between items-center px-6 h-16 border-b border-outline-variant/30">
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-surface-variant/50 rounded-full transition-colors" style="">
+<span class="material-symbols-outlined text-primary" data-icon="menu" style="">menu</span>
+</button>
+<h1 class="text-xl font-serif font-bold tracking-tight text-primary" style="">The Tactile Archive</h1>
+</div>
+<div class="flex items-center space-x-2 md:space-x-8">
+<nav class="hidden md:flex space-x-6 text-sm font-medium">
+<a class="text-primary font-bold" href="#" style="">Home</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#" style="">Explore</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#" style="">Library</a>
+</nav>
+<div class="flex items-center gap-1">
+<button class="p-2 hover:bg-surface-variant/50 rounded-full transition-colors" style="">
+<span class="material-symbols-outlined text-primary" data-icon="search" style="">search</span>
+</button>
+<button class="p-2 hover:bg-surface-variant/50 rounded-full transition-colors relative" style="">
+<span class="material-symbols-outlined text-primary" data-icon="shopping_cart" style="">shopping_cart</span>
+<span class="absolute top-2 right-2 w-2 h-2 bg-error rounded-full"></span>
+</button>
+</div>
+</div>
+</header>
+<main class="pt-24 px-6 max-w-7xl mx-auto">
+<!-- Search Section -->
+<section class="mb-10">
+<div class="relative max-w-2xl mx-auto md:mx-0">
+<div class="absolute inset-y-0 left-5 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-outline" data-icon="search" style="">search</span>
+</div>
+<input class="w-full bg-surface-container-highest border-none rounded-lg py-4 pl-14 pr-6 text-base focus:ring-1 focus:ring-primary transition-all placeholder:text-outline/60 font-body" placeholder="Search the archive..." type="text">
+</div>
+</section>
+<!-- Category Scroll -->
+<section class="mb-10 overflow-hidden">
+<div class="flex overflow-x-auto space-x-3 pb-2 snap-x">
+<button class="snap-start flex-none px-5 py-2 rounded-lg bg-primary text-on-primary font-medium text-sm" style="">All Books</button>
+<button class="snap-start flex-none px-5 py-2 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-medium text-sm transition-colors" style="">Fiction</button>
+<button class="snap-start flex-none px-5 py-2 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-medium text-sm transition-colors" style="">Non-fiction</button>
+<button class="snap-start flex-none px-5 py-2 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-medium text-sm transition-colors" style="">Textbooks</button>
+<button class="snap-start flex-none px-5 py-2 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-medium text-sm transition-colors" style="">Poetry</button>
+<button class="snap-start flex-none px-5 py-2 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-medium text-sm transition-colors" style="">Rare Finds</button>
+</div>
+</section>
+<!-- Hero Featured (Simplified Layout) -->
+<section class="mb-12">
+<div class="asymmetric-grid items-stretch">
+<div class="relative aspect-video md:aspect-auto overflow-hidden rounded-lg bg-surface-container">
+<img alt="Library Scene" class="w-full h-full object-cover" data-alt="Close-up of old leather bound books on a rustic wooden shelf with warm soft candle light and dust motes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFUySxI71qd9BO1op2NrUTpAH8QCGCcvTc3MATHPscaNoQDvGnusD6sJvNz7w77iuJXvKz0z3wKTJ-TrpbSd6NqOAOkx_RezLcxxTF09GNYmgLGB7uVO7Vq_eRDihny0eTHE_BuwhWqhJyUOFXreCjZRY3XvdgH5VkfQ0UxEhk6hHKK8rMVKiMiZdsWDsbmEmVeEeK0-C-F4mzDSGqlYWTrqOzFp-96PeJMaGXMGVSAGEzJFxyTKSTAO5L7F0ZPMCugzkCL7S7vugj" style="">
+<div class="absolute inset-0 bg-black/30"></div>
+<div class="absolute bottom-6 left-6 text-white">
+<span class="bg-tertiary text-on-tertiary px-2 py-0.5 rounded text-[10px] uppercase tracking-wider font-bold mb-2 inline-block" style="">Staff Pick</span>
+<h2 class="text-2xl md:text-3xl font-serif font-bold mb-1" style="">The Architect of Forgotten Dreams</h2>
+<p class="text-sm font-body opacity-90" style="">By Julian Thorne</p>
+</div>
+</div>
+<div class="p-6 bg-surface-container-low rounded-lg flex flex-col justify-center border border-outline-variant/30">
+<h3 class="text-xl font-serif font-bold text-primary mb-3" style="">Why we love it</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6 font-body" style="">A sweeping narrative that bridges the gap between historical fact and ethereal fantasy. Perfect for quiet afternoons.</p>
+<button class="w-full md:w-max px-6 py-3 bg-primary text-on-primary rounded-lg text-sm font-semibold hover:opacity-90 transition-opacity" style="">Rent for $2.00 / week</button>
+</div>
+</div>
+</section>
+<!-- Vertical Book Feed -->
+<section class="mb-16">
+<div class="flex items-center justify-between mb-8 border-b border-outline-variant/30 pb-4">
+<h2 class="text-2xl font-serif font-bold text-primary" style="">Community Catalog</h2>
+<div class="flex items-center text-on-surface-variant text-xs font-medium gap-1.5 cursor-pointer">
+<span class="material-symbols-outlined text-lg" data-icon="sort" style="">sort</span>
+<span class="" style="">Recent Arrivals</span>
+</div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-y-10 gap-x-6">
+<!-- Book Card 1 -->
+<div class="flex flex-col group cursor-pointer">
+<div class="relative aspect-[3/4] mb-3 bg-surface-container rounded shadow-sm overflow-hidden border border-outline-variant/10">
+<img alt="Book Cover" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="A minimalist book cover with abstract blue and gold shapes titled The Sea of Stars in elegant serif typography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZa73X83NsjLNd1y9Su-WlwU_ZYbzZp1GY0IllCXflST7a23T2YPIbT3-XpNnZaequ9lUg31Xuksbhl5yjXThyrsIZQI1kWNEXjt1Djnibb_vb3e3kOqDpQc1btbEcl_y8I0c2RDWI8DZi_H4FoI4zUm-UtS4ZPY4RvQJOvMFbc07vuJefy9T8Ho1x1yltw3D8Gkw4Yt3lGsSiKTUXWrafvY_slTL1WlJuYSxeHoBuhDs--ovFV3BfPedR8PnYOa1MLjuMFCw5u-RG" style="">
+<div class="absolute top-2 left-2">
+<span class="bg-primary/90 text-[9px] text-white px-2 py-0.5 rounded font-bold uppercase tracking-wider" style="">For Rent</span>
+</div>
+</div>
+<h4 class="font-serif font-bold text-base text-primary line-clamp-1 mb-0.5" style="">The Sea of Stars</h4>
+<p class="text-xs text-on-surface-variant font-medium mb-2" style="">Elena Vance</p>
+<div class="mt-auto">
+<div class="flex items-center gap-2 mb-0.5">
+<span class="text-[10px] line-through text-outline/60" style="">$1.80</span>
+<span class="text-[10px] font-bold text-error" style="">-20%</span>
+</div>
+<span class="text-primary font-bold text-sm" style="">$1.50</span>
+</div>
+</div>
+<!-- Book Card 2 -->
+<div class="flex flex-col group cursor-pointer">
+<div class="relative aspect-[3/4] mb-3 bg-surface-container rounded shadow-sm overflow-hidden border border-outline-variant/10">
+<img alt="Book Cover" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="Close up of a classic red cloth bound book with gold embossed title and intricate floral patterns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBM1AZVuFT-kfks_tLPex9NlpJGJBMk6HxeqxwzHLAiAbIo-gyjsboQoO2QVU1kCIHPIlbp2NN0Jk0hsst-g38zPrfKVJqIESl6ogK8_RgyLPfthMZXd-ZI7-xJ36fxo659v_kd1w4zhV8CBxIVj4JZE5WOtikF6C5AB878SkWJ3eo2kO200lY5QJt50uQyHWTgX9fEIh_zyZTxhqNQ7n4ZxrVwPmVBi9s5zYPk6u9F95mELMXbfkfI_FfZ9Nn_VpYW9LJyBL8Vm8jf" style="">
+<div class="absolute top-2 left-2">
+<span class="bg-tertiary/90 text-[9px] text-white px-2 py-0.5 rounded font-bold uppercase tracking-wider" style="">For Sale</span>
+</div>
+</div>
+<h4 class="font-serif font-bold text-base text-primary line-clamp-1 mb-0.5" style="">Crimson Leaves</h4>
+<p class="text-xs text-on-surface-variant font-medium mb-2" style="">Marcus Gray</p>
+<div class="mt-auto">
+<span class="text-primary font-bold text-sm" style="">$12.00 - $18.00</span>
+</div>
+</div>
+<!-- Book Card 3 -->
+<div class="flex flex-col group cursor-pointer">
+<div class="relative aspect-[3/4] mb-3 bg-surface-container rounded shadow-sm overflow-hidden border border-outline-variant/10">
+<img alt="Book Cover" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="A bright yellow book cover with a simple black line drawing of an open window overlooking a meadow" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxFtRpcLaotjHfWum473cKFq0xXUdNml0r11_j3ecr6vnmVkOyVAgcTi_hmTN2zjqjGcsxbhLbnHZ4DQBWvF9uuiN3U0lpRg-6caRIez34rKa8n1CXXjR4rONf2HqrOUOUmKFTxmD-mHeHHcE_V0UcHusUtPx_Xy_bAjWcLSXUEgxuIW9uLOKo1Vj2ePGl9_YCJImfuTMOanlMsenJSYrSt3f9Vhh2ypwEsbo_Sq_kOIuOQYR_ghltGXUQa1Lz_J3pu7-hokEO0H_S" style="">
+<div class="absolute top-2 left-2">
+<span class="bg-outline text-[9px] text-white px-2 py-0.5 rounded font-bold uppercase tracking-wider" style="">Donate</span>
+</div>
+</div>
+<h4 class="font-serif font-bold text-base text-primary line-clamp-1 mb-0.5" style="">Window into Dawn</h4>
+<p class="text-xs text-on-surface-variant font-medium mb-2" style="">Sarah Penrose</p>
+<div class="mt-auto">
+<span class="text-primary font-bold text-sm" style="">Free</span>
+</div>
+</div>
+<!-- Book Card 4 -->
+<div class="flex flex-col group cursor-pointer">
+<div class="relative aspect-[3/4] mb-3 bg-surface-container rounded shadow-sm overflow-hidden border border-outline-variant/10">
+<img alt="Book Cover" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="An old weathered textbook with mathematical equations faintly visible on the cover and a textured surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZuTtv5U7MQ0uH9gA9WlQqRgkVslHBFFdxk4wnRUniJwnUvrbwfJC3FmulgdVgOXG7QDbNbkc0cr3K48JjA-8OW7feDzUyHquavQelvKMz5yPqhnSDtz9C0mxSel8wIdqgIZ6ISSsOj3GOpD6_IgEVMFAcT-lYWym8KaHnNPJymkKmNtDfVOaSB2vJ_A503scppWmqRDcVzKEtR5rF8aXJIdAujyA69urUJweNSoTEveADcr3qwRW06YZfP3-7XCZuzWAPYeq2QynP" style="">
+<div class="absolute top-2 left-2">
+<span class="bg-primary/90 text-[9px] text-white px-2 py-0.5 rounded font-bold uppercase tracking-wider" style="">For Rent</span>
+</div>
+</div>
+<h4 class="font-serif font-bold text-base text-primary line-clamp-1 mb-0.5" style="">Calculus &amp; Craft</h4>
+<p class="text-xs text-on-surface-variant font-medium mb-2" style="">Prof. Leo Aris</p>
+<div class="mt-auto">
+<div class="flex items-center gap-2 mb-0.5">
+<span class="text-[10px] line-through text-outline/60" style="">$3.50</span>
+<span class="text-[10px] font-bold text-error" style="">-15%</span>
+</div>
+<span class="text-primary font-bold text-sm" style="">$3.00</span>
+</div>
+</div>
+<!-- Book Card 5 -->
+<div class="flex flex-col group cursor-pointer">
+<div class="relative aspect-[3/4] mb-3 bg-surface-container rounded shadow-sm overflow-hidden border border-outline-variant/10">
+<img alt="Book Cover" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" data-alt="Modern dark book cover with neon green geometric lines and the word SYNTHESIS in bold white letters" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqkTVu6gzcttyqw-Uh01p_0dG5iIetc3AdiJjVgOGXJXF5_i7if4502k95pG1lOSzcWvIHzKnABMScK5_ErL6y3tVmMtcgldKDc4nYXVYNvFRp9AeCCU1GC-TZAd_J9WcO5H78Azfrt9O_Rs2Mu8ua4hgV8tHhcr0LFJ02jysXc8y_gD3HHcGIyaR16ZASL3iyKihYY0_n7Uu0XKxSso_LsqV6iy3OU6wVC-_9IG1vQgwLWxpvsSKFbixR34RYAs_b64r65ddzsvEa" style="">
+<div class="absolute top-2 left-2">
+<span class="bg-tertiary/90 text-[9px] text-white px-2 py-0.5 rounded font-bold uppercase tracking-wider" style="">For Sale</span>
+</div>
+</div>
+<h4 class="font-serif font-bold text-base text-primary line-clamp-1 mb-0.5" style="">Synthesis: The AI Era</h4>
+<p class="text-xs text-on-surface-variant font-medium mb-2" style="">D. Sterling</p>
+<div class="mt-auto">
+<span class="text-primary font-bold text-sm" style="">$18.50 - $22.50</span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- NavigationDrawer (Simplified) -->
+<aside class="fixed left-0 top-0 h-full w-80 bg-surface shadow-xl -translate-x-full lg:hidden flex flex-col p-8 space-y-6 z-[100] border-r border-outline-variant/30">
+<div class="flex items-center space-x-4 mb-4">
+<div class="w-12 h-12 bg-primary rounded flex items-center justify-center text-on-primary font-serif font-bold text-lg" style="">ET</div>
+<div>
+<h3 class="text-primary font-serif font-bold text-lg" style="">Elias Thorne</h3>
+<p class="text-on-surface-variant text-xs font-medium uppercase tracking-widest" style="">Master Librarian</p>
+</div>
+</div>
+<nav class="flex flex-col space-y-1">
+<a class="flex items-center px-4 py-3 rounded-lg bg-surface-container text-primary font-medium text-sm transition-colors" href="#" style="">
+<span class="material-symbols-outlined mr-4 text-xl" data-icon="history" style="">history</span>
+            Reading History
+        </a>
+<a class="flex items-center px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-low font-medium text-sm transition-colors" href="#" style="">
+<span class="material-symbols-outlined mr-4 text-xl" data-icon="group" style="">group</span>
+            Book Clubs
+        </a>
+<a class="flex items-center px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-low font-medium text-sm transition-colors" href="#" style="">
+<span class="material-symbols-outlined mr-4 text-xl" data-icon="settings" style="">settings</span>
+            Settings
+        </a>
+<a class="flex items-center px-4 py-3 rounded-lg text-on-surface-variant hover:bg-surface-container-low font-medium text-sm transition-colors" href="#" style="">
+<span class="material-symbols-outlined mr-4 text-xl" data-icon="help_outline" style="">help_outline</span>
+            Help &amp; Support
+        </a>
+</nav>
+<div class="mt-auto pt-4 border-t border-outline-variant/30 text-center">
+<p class="text-[10px] text-outline uppercase tracking-widest font-bold" style="">128 Books Shared</p>
+</div>
+</aside>
+<!-- BottomNavBar (Mobile Only - Simplified) -->
+<nav class="md:hidden bg-surface/95 backdrop-blur-md fixed bottom-0 w-full z-50 pb-safe border-t border-outline-variant/30 flex justify-around items-center h-16 transition-all duration-300">
+<a class="flex flex-col items-center justify-center text-primary" href="#" style="">
+<span class="material-symbols-outlined text-2xl" data-icon="auto_stories" style="font-variation-settings: &quot;FILL&quot; 1;">auto_stories</span>
+<span class="text-[9px] uppercase tracking-wider font-bold mt-1" style="">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-outline/60" href="#" style="">
+<span class="material-symbols-outlined text-2xl" data-icon="favorite" style="">favorite</span>
+<span class="text-[9px] uppercase tracking-wider font-bold mt-1" style="">favorites</span>
+</a>
+<a class="flex flex-col items-center justify-center text-outline/60" href="#" style="">
+<span class="material-symbols-outlined text-2xl" data-icon="local_library" style="">local_library</span>
+<span class="text-[9px] uppercase tracking-wider font-bold mt-1" style="">Library</span>
+</a>
+<a class="flex flex-col items-center justify-center text-outline/60" href="#" style="">
+<span class="material-symbols-outlined text-2xl" data-icon="notifications" style="">notifications</span>
+<span class="text-[9px] uppercase tracking-wider font-bold mt-1" style="">Activity</span>
+</a>
+<a class="flex flex-col items-center justify-center text-outline/60" href="#" style="">
+<span class="material-symbols-outlined text-2xl" data-icon="person" style="">person</span>
+<span class="text-[9px] uppercase tracking-wider font-bold mt-1" style="">Profile</span>
+</a>
+</nav>
+<!-- FAB (Simplified) -->
+<button class="fixed bottom-20 right-6 md:bottom-8 md:right-8 w-14 h-14 bg-primary text-on-primary rounded-lg shadow-xl flex items-center justify-center hover:opacity-90 transition-opacity z-40" style="">
+<span class="material-symbols-outlined text-2xl" data-icon="add" style="">add</span>
+</button>
+</body></html>

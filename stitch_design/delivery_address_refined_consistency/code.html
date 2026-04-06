@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Delivery Address - The Tactile Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-tertiary-container": "#b0898c",
+                    "on-error-container": "#93000a",
+                    "on-secondary-fixed-variant": "#404941",
+                    "tertiary-fixed-dim": "#e7bcbf",
+                    "secondary-fixed-dim": "#c0c9bf",
+                    "on-tertiary-fixed": "#2d1417",
+                    "tertiary-container": "#3f2427",
+                    "secondary": "#586159",
+                    "error-container": "#ffdad6",
+                    "on-primary-fixed-variant": "#364c3c",
+                    "on-primary-fixed": "#0b2013",
+                    "on-surface": "#1a1c1a",
+                    "on-secondary-fixed": "#151d17",
+                    "surface-tint": "#4d6453",
+                    "surface-container-low": "#f4f4f0",
+                    "tertiary": "#271013",
+                    "surface-variant": "#e2e3df",
+                    "primary-container": "#1b3022",
+                    "on-secondary-container": "#5c655d",
+                    "error": "#ba1a1a",
+                    "primary-fixed": "#d0e9d4",
+                    "tertiary-fixed": "#ffd9dc",
+                    "surface": "#faf9f5",
+                    "on-surface-variant": "#434843",
+                    "surface-container-highest": "#e2e3df",
+                    "secondary-fixed": "#dce5db",
+                    "primary-fixed-dim": "#b4cdb8",
+                    "inverse-primary": "#b4cdb8",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "on-tertiary-fixed-variant": "#5d3f42",
+                    "on-primary": "#ffffff",
+                    "surface-bright": "#faf9f5",
+                    "outline-variant": "#c3c8c1",
+                    "on-error": "#ffffff",
+                    "surface-dim": "#dadad6",
+                    "inverse-surface": "#2f312e",
+                    "outline": "#737973",
+                    "on-primary-container": "#819986",
+                    "background": "#faf9f5",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-high": "#e8e8e4",
+                    "secondary-container": "#d9e2d8",
+                    "on-background": "#1a1c1a",
+                    "inverse-on-surface": "#f1f1ed",
+                    "primary": "#061b0e",
+                    "surface-container": "#eeeeea"
+            },
+            "borderRadius": {
+                    "DEFAULT": "4px",
+                    "lg": "8px",
+                    "xl": "12px",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Manrope', sans-serif; -webkit-font-smoothing: antialiased; }
+        h1, h2, h3 { font-family: 'Noto Serif', serif; font-style: normal; }
+        input:focus { outline: none; box-shadow: none; }
+        select:focus { outline: none; box-shadow: none; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface min-h-screen pb-32">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-surface/95 border-b border-outline-variant/30">
+<div class="flex items-center justify-between px-6 h-16 w-full max-w-screen-xl mx-auto">
+<button class="p-2 -ml-2 hover:bg-surface-container transition-colors rounded-full">
+<span class="material-symbols-outlined text-primary">arrow_back</span>
+</button>
+<h1 class="text-lg font-bold text-primary">Delivery Address</h1>
+<div class="w-10"></div>
+</div>
+</header>
+<main class="max-w-2xl mx-auto px-6 pt-24 space-y-12">
+<!-- Saved Addresses Section -->
+<section>
+<h2 class="text-2xl font-bold mb-8 text-primary">Saved Addresses</h2>
+<div class="space-y-4">
+<!-- Address Card 1 (Active) -->
+<label class="group relative flex flex-col p-6 bg-surface-container-lowest border border-outline-variant/30 rounded-xl cursor-pointer transition-all hover:bg-surface-container-high has-[:checked]:border-primary">
+<input checked="" class="hidden" name="delivery_address" type="radio" value="home"/>
+<div class="flex justify-between items-start mb-4">
+<div class="flex items-center gap-3">
+<span class="font-bold text-primary">Julianne Sterling</span>
+<span class="px-2 py-0.5 bg-primary/10 text-primary text-[10px] font-bold tracking-wider uppercase rounded">Primary</span>
+</div>
+<div class="w-5 h-5 rounded-full border border-outline-variant flex items-center justify-center group-has-[:checked]:border-primary group-has-[:checked]:bg-primary transition-colors">
+<div class="w-1.5 h-1.5 rounded-full bg-white opacity-0 group-has-[:checked]:opacity-100"></div>
+</div>
+</div>
+<div class="text-on-surface-variant text-sm leading-relaxed mb-4">
+                    1284 Oakwood Avenue, Apartment 4B<br/>
+                    Brooklyn, New York 11211<br/>
+                    United States
+                </div>
+<div class="flex items-center gap-2 text-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-base">call</span>
+<span>+1 (555) 012-3456</span>
+</div>
+</label>
+<!-- Address Card 2 -->
+<label class="group relative flex flex-col p-6 bg-surface border border-outline-variant/30 rounded-xl cursor-pointer transition-all hover:bg-surface-container-high has-[:checked]:border-primary">
+<input class="hidden" name="delivery_address" type="radio" value="work"/>
+<div class="flex justify-between items-start mb-4">
+<span class="font-bold text-primary">Julianne Sterling</span>
+<div class="w-5 h-5 rounded-full border border-outline-variant flex items-center justify-center group-has-[:checked]:border-primary group-has-[:checked]:bg-primary transition-colors">
+<div class="w-1.5 h-1.5 rounded-full bg-white opacity-0 group-has-[:checked]:opacity-100"></div>
+</div>
+</div>
+<div class="text-on-surface-variant text-sm leading-relaxed mb-4">
+                    The Manhattan Archive - Library Wing<br/>
+                    422 Lexington Ave, Floor 12<br/>
+                    New York, NY 10174
+                </div>
+<div class="flex items-center gap-2 text-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-base">call</span>
+<span>+1 (555) 987-6543</span>
+</div>
+</label>
+</div>
+</section>
+<!-- Separator -->
+<div class="relative py-4">
+<div class="absolute inset-0 flex items-center">
+<div class="w-full border-t border-outline-variant/30"></div>
+</div>
+<div class="relative flex justify-center">
+<span class="bg-surface px-4 text-[10px] font-bold tracking-[0.2em] uppercase text-on-surface-variant">New Destination</span>
+</div>
+</div>
+<!-- Add New Address Section -->
+<section>
+<div class="flex items-center gap-4 mb-8">
+<h2 class="text-2xl font-bold text-primary">Add New Address</h2>
+</div>
+<form class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
+<div class="md:col-span-2">
+<label class="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2 ml-1">Full Name</label>
+<input class="w-full h-12 px-4 rounded-lg bg-surface-container-highest border-none text-on-surface text-sm placeholder:text-outline focus:ring-1 focus:ring-primary transition-all" placeholder="Enter recipient name" type="text"/>
+</div>
+<div class="md:col-span-2">
+<label class="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2 ml-1">Street Address</label>
+<input class="w-full h-12 px-4 rounded-lg bg-surface-container-highest border-none text-on-surface text-sm placeholder:text-outline focus:ring-1 focus:ring-primary transition-all" placeholder="House number and street name" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2 ml-1">City</label>
+<input class="w-full h-12 px-4 rounded-lg bg-surface-container-highest border-none text-on-surface text-sm placeholder:text-outline focus:ring-1 focus:ring-primary transition-all" placeholder="e.g. New York" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2 ml-1">State / Province</label>
+<input class="w-full h-12 px-4 rounded-lg bg-surface-container-highest border-none text-on-surface text-sm placeholder:text-outline focus:ring-1 focus:ring-primary transition-all" placeholder="e.g. NY" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2 ml-1">ZIP / Postal Code</label>
+<input class="w-full h-12 px-4 rounded-lg bg-surface-container-highest border-none text-on-surface text-sm placeholder:text-outline focus:ring-1 focus:ring-primary transition-all" placeholder="10001" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] font-bold uppercase tracking-wider text-on-surface-variant mb-2 ml-1">Country</label>
+<div class="relative">
+<select class="w-full h-12 px-4 rounded-lg bg-surface-container-highest border-none text-on-surface text-sm focus:ring-1 focus:ring-primary transition-all appearance-none">
+<option>United States</option>
+<option>United Kingdom</option>
+<option>Canada</option>
+<option>Australia</option>
+</select>
+<span class="material-symbols-outlined absolute right-4 top-3 text-on-surface-variant pointer-events-none text-xl">expand_more</span>
+</div>
+</div>
+</form>
+</section>
+<!-- Map Snippet -->
+<div class="relative w-full h-40 rounded-xl overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover opacity-50 grayscale" data-alt="abstract architectural map of a city grid with soft parchment colors and minimalist fine lines" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDj_3Juv-OwokeeafnhaDpChSvwQ-KMMe8_WXJW0cI6XtaBVmIyuuFZ-CA7P2-kQ7hcN47459VI__RyAebElLWJq4xN6Hrb5nNaRVlwcvPRHPxEGj9WTwJ7rR_PZ2sHT_w-63gyx5jn6IrC41ReF8j9Cpjh3YGuZqusZjnq-eYv_VolW76vIYoYlt9lyKyL-Z3ggjkCtabCtTpPuoriM21iL9XCRrRId-Zp22vC7zYAbY2ibp0BwwvTqWSq5k1KpsXfBBEBAD5K09-M"/>
+<div class="absolute bottom-4 left-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">location_on</span>
+<span class="text-[10px] font-bold uppercase tracking-wider text-primary">Preview Delivery Radius</span>
+</div>
+</div>
+</main>
+<!-- Fixed Bottom Action Area -->
+<div class="fixed bottom-0 left-0 w-full p-6 bg-surface border-t border-outline-variant/30">
+<div class="max-w-2xl mx-auto">
+<button class="w-full h-14 bg-primary text-on-primary rounded-lg font-bold transition-all active:scale-[0.98] flex items-center justify-center gap-3">
+<span>Confirm Address</span>
+<span class="material-symbols-outlined text-xl">check_circle</span>
+</button>
+</div>
+</div>
+</body></html>

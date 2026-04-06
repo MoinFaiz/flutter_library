@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>My Uploads - The Tactile Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#061b0e",
+              "on-primary": "#ffffff",
+              "surface": "#faf9f5",
+              "on-surface": "#1a1c1a",
+              "on-surface-variant": "#434843",
+              "secondary": "#586159",
+              "outline-variant": "#c3c8c1",
+              "surface-container-low": "#f4f4f0",
+              "surface-container": "#eeeeea",
+              "surface-container-high": "#e8e8e4",
+              "surface-variant": "#e2e3df",
+              "tactile-green": "#061b0e",
+              "tactile-teal": "#4d6453",
+              "error": "#ba1a1a"
+            },
+            borderRadius: {
+              DEFAULT: "4px",
+              "lg": "8px",
+              "xl": "12px",
+              "full": "9999px"
+            },
+            fontFamily: {
+              headline: ["Noto Serif", "serif"],
+              body: ["Manrope", "sans-serif"],
+              label: ["Manrope", "sans-serif"]
+            }
+          },
+        },
+      };
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      }
+      body {
+        min-height: 100dvh;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .font-serif { font-family: 'Noto Serif', serif; }
+      .font-sans { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body antialiased selection:bg-primary selection:text-white">
+<div class="max-w-md mx-auto relative min-h-screen border-x border-outline-variant/30 bg-surface shadow-sm">
+<!-- TopAppBar (Matched to SCREEN_118) -->
+<header class="fixed top-0 w-full max-w-md z-50 bg-surface/90 backdrop-blur-md flex justify-between items-center px-6 h-16 border-b border-outline-variant/30">
+<button class="p-2 hover:bg-surface-container transition-colors rounded-full">
+<span class="material-symbols-outlined text-primary">menu</span>
+</button>
+<h1 class="text-xl font-headline font-bold tracking-tight text-primary">The Tactile Archive</h1>
+<button class="p-2 hover:bg-surface-container transition-colors rounded-full relative">
+<span class="material-symbols-outlined text-primary">shopping_cart</span>
+<span class="absolute top-1.5 right-1.5 w-2.5 h-2.5 bg-error rounded-full border-2 border-surface"></span>
+</button>
+</header>
+<!-- Main Content -->
+<main class="pt-24 pb-32 px-6">
+<!-- Editorial Header (Matched to SCREEN_118) -->
+<header class="mb-10">
+<h2 class="font-headline text-3xl font-bold text-primary mb-4">Your Library</h2>
+<p class="text-on-surface-variant text-sm leading-relaxed font-body">Track your active reading rentals and manage your archive contributions.</p>
+</header>
+<!-- Tab System (Matched to SCREEN_118 style) -->
+<div class="flex space-x-8 mb-8 border-b border-outline-variant/30">
+<button class="relative pb-3 focus:outline-none opacity-50 hover:opacity-100 transition-opacity">
+<span class="font-label text-sm font-bold text-on-surface uppercase tracking-wider">My Rentals</span>
+</button>
+<button class="relative pb-3 focus:outline-none">
+<span class="font-label text-sm font-bold text-primary uppercase tracking-wider">My Uploads</span>
+<div class="absolute bottom-0 left-0 w-full h-0.5 bg-primary rounded-full"></div>
+</button>
+</div>
+<div class="flex justify-between items-center mb-6">
+<h3 class="font-headline text-xl font-bold text-primary">My Uploads</h3>
+<button class="flex items-center gap-1.5 px-3 py-2 bg-surface-container border border-outline-variant text-[10px] font-bold uppercase tracking-widest text-primary rounded transition-colors hover:bg-surface-container-high">
+<span class="material-symbols-outlined text-base">add</span>
+                Upload New
+            </button>
+</div>
+<div class="space-y-4">
+<!-- Book Item 1 -->
+<div class="flex items-start gap-4 p-4 bg-surface-container-low rounded-lg border border-outline-variant/50">
+<div class="w-16 h-20 bg-tactile-teal rounded shadow-sm overflow-hidden flex-shrink-0 relative">
+<img alt="Notes from Underground cover" class="w-full h-full object-cover mix-blend-multiply opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAStT2rZqPrhhaW28s8k9yAvLVCyu79vxNjehX_uQQqN9Cmgh9diW2Zoi-rQvFzvG42zfKfA_-9LX4IOwe5RNkpRObzKHtyhfQaV59NX_nwB7AoD6pCBpgjODHfnUbCkrwhCisbh7WGieBcjk7IrudA4ZD_rDntAuTZSWyOkbGLLQQhXIliAQ0GjcpzHJ4kpYxUc0vRayUQg7pEf5UFIYMldBgATY_kqssJOhYY7WVnlAFpHR_xZg-uf2yUkQpRDwgJqvadFJaXldUG"/>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="font-headline font-bold text-[15px] text-primary truncate mb-1">Notes from Underground</h4>
+<p class="text-xs text-on-surface-variant font-medium mb-3">Fyodor Dostoevsky</p>
+<span class="px-2 py-0.5 bg-primary text-on-primary text-[9px] font-bold uppercase tracking-wider rounded">Active Listing</span>
+</div>
+<div class="flex flex-col gap-2">
+<button aria-label="Edit listing" class="p-1.5 text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-xl">edit</span>
+</button>
+<button aria-label="View analytics" class="p-1.5 text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 1">bar_chart</span>
+</button>
+</div>
+</div>
+<!-- Book Item 2 -->
+<div class="flex items-start gap-4 p-4 bg-surface-container-low rounded-lg border border-outline-variant/50">
+<div class="w-16 h-20 bg-surface-container flex items-center justify-center rounded shadow-sm flex-shrink-0 border border-outline-variant/30">
+<span class="material-symbols-outlined text-secondary text-2xl">image</span>
+</div>
+<div class="flex-1 min-w-0">
+<h4 class="font-headline font-bold text-[15px] text-primary truncate mb-1">The Waste Land</h4>
+<p class="text-xs text-on-surface-variant font-medium mb-3">T.S. Eliot</p>
+<span class="px-2 py-0.5 bg-surface-container-high text-secondary text-[9px] font-bold uppercase tracking-wider rounded border border-outline-variant">Pending Review</span>
+</div>
+<div class="flex flex-col gap-2">
+<button aria-label="Edit listing" class="p-1.5 text-secondary hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-xl">edit</span>
+</button>
+<button aria-label="Delete listing" class="p-1.5 text-secondary hover:text-red-600 transition-colors">
+<span class="material-symbols-outlined text-xl">delete</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Curator's Tip Card (Refined to match SCREEN_118 style) -->
+<div class="mt-12 p-8 bg-primary text-on-primary rounded-lg border border-primary/10 relative overflow-hidden shadow-lg">
+<div class="relative z-10">
+<h4 class="font-headline text-xl font-bold mb-3">Curator's Tip</h4>
+<p class="text-sm text-on-primary/80 leading-relaxed font-body">
+                    "A library is one of the necessities of life." High-resolution photos increase your archive rank and help maintain the tactile quality of our digital records.
+                </p>
+</div>
+<div class="absolute -right-6 -bottom-8 opacity-10">
+<span class="material-symbols-outlined text-9xl">history_edu</span>
+</div>
+</div>
+</main>
+<!-- BottomNavBar (Matched to SCREEN_118 + requested updates) -->
+<nav class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-md flex justify-around items-center h-16 pb-safe bg-surface/95 backdrop-blur-md border-t border-outline-variant/30 z-50">
+<a class="flex flex-col items-center justify-center text-on-surface/40 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[24px]">home</span>
+<span class="font-label text-[9px] uppercase tracking-[0.1em] font-bold mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface/40 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[24px]">favorite</span>
+<span class="font-label text-[9px] uppercase tracking-[0.1em] font-bold mt-1">Favorites</span>
+</a>
+<a class="flex flex-col items-center justify-center text-primary" href="#">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1">auto_stories</span>
+<span class="font-label text-[9px] uppercase tracking-[0.1em] font-bold mt-1">Library</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface/40 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[24px]">notifications</span>
+<span class="font-label text-[9px] uppercase tracking-[0.1em] font-bold mt-1">Activity</span>
+</a>
+<a class="flex flex-col items-center justify-center text-on-surface/40 hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[24px]">person</span>
+<span class="font-label text-[9px] uppercase tracking-[0.1em] font-bold mt-1">Profile</span>
+</a>
+</nav>
+</div>
+</body></html>

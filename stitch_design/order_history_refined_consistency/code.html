@@ -1,0 +1,179 @@
+<!DOCTYPE html><html class="light" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Order History - The Archive</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@600;700&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary": "#061b0e",
+                        "on-primary": "#ffffff",
+                        "surface": "#faf9f5",
+                        "on-surface": "#1a1c1a",
+                        "surface-variant": "#e2e3df",
+                        "on-surface-variant": "#434843",
+                        "outline": "#737973",
+                        "secondary": "#586159",
+                        "surface-container": "#eeeeea",
+                        "surface-container-low": "#f4f4f0",
+                        "surface-container-high": "#e8e8e4",
+                        "surface-container-highest": "#e2e3df",
+                        "surface-container-lowest": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif", "serif"],
+                        "body": ["Manrope", "sans-serif"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; -webkit-font-smoothing: antialiased; }
+        .font-headline { font-family: 'Noto Serif', serif; font-style: normal !important; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/95 border-b border-surface-container-highest flex items-center px-4 h-16">
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-primary p-2 hover:bg-surface-container transition-colors" data-icon="arrow_back" style="">arrow_back</button>
+<h1 class="font-headline text-lg font-bold text-primary" style="">Order History</h1>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="pt-24 pb-12 px-4 max-w-2xl mx-auto">
+<!-- Filter Tabs -->
+<div class="mb-8">
+<div class="flex bg-surface-container-low p-1 rounded-lg">
+<button class="flex-1 py-2 text-sm font-semibold bg-surface-container-lowest shadow-sm text-primary rounded-md" style="">All History</button>
+<button class="flex-1 py-2 text-sm font-medium text-on-surface-variant hover:text-primary transition-colors" style="">Pending</button>
+</div>
+</div>
+<!-- Order List -->
+<div class="space-y-4">
+<!-- Order Entry 1 -->
+<div class="bg-surface-container-lowest border border-surface-container-highest p-4 rounded-xl flex gap-5">
+<div class="shrink-0 w-20 h-28 bg-surface-container rounded-sm overflow-hidden border border-surface-container-highest">
+<img alt="Book Cover" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs7lWV1mtEeyeNVlrIoiZlFYgL2PZNSdG2QDxMHxIWzh-O66hr37QE_2SOmrklZ7LgcDFJdwPb88cvO-tCQtDn5hjxkWC0a_VCsHaTxjRhd8g14zrK7B3CXKXOUqUk0VnD-VO4wYCVKDbyC7BjXdgt4hIyQqcE4uJErd40KiBfH5FJnhuHAqtVnYD9LhGH9RWwfse2zATkfeOjHpgQpzUezOzxRFIsHcUUleCybdqhiUCxJ5pf6ITeN4rt6l1z-pWtRDjKvWFG-Eky" style="">
+</div>
+<div class="flex flex-col justify-between py-1 flex-grow">
+<div>
+<h3 class="font-headline text-base font-bold text-primary leading-tight" style="">The Philosophy of Silence</h3>
+<p class="text-xs text-on-surface-variant mt-1" style="">ID: #ARCH-882910</p>
+</div>
+<div class="grid grid-cols-2 gap-2 text-xs mt-2">
+<div>
+<span class="block text-[10px] uppercase tracking-wider text-on-surface-variant font-semibold" style="">Type</span>
+<span class="text-on-surface" style="">Purchase</span>
+</div>
+<div>
+<span class="block text-[10px] uppercase tracking-wider text-on-surface-variant font-semibold" style="">Date</span>
+<span class="text-on-surface" style="">Oct 24, 2023</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-end justify-between py-1 shrink-0">
+<span class="px-2 py-0.5 bg-surface-container-high text-primary text-[10px] font-bold uppercase tracking-wider rounded" style="">Completed</span>
+<div class="text-right">
+<span class="block text-[10px] uppercase tracking-wider text-on-surface-variant font-semibold" style="">Amount</span>
+<span class="font-headline text-base font-bold text-primary" style="">$42.00</span>
+</div>
+</div>
+</div>
+<!-- Order Entry 2 -->
+<div class="bg-surface-container-lowest border border-surface-container-highest p-4 rounded-xl flex gap-5">
+<div class="shrink-0 w-20 h-28 bg-surface-container rounded-sm overflow-hidden border border-surface-container-highest">
+<img alt="Book Cover" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCboiIQyRfDF-IbBNDkMhbwbkO83lirlz4XTTbnx9y3j_-GxskbfdlaaXi2OfDY2RRUXndMPsTPBFiUIs9lEpfMQcEf_4GfIY1uDfidP4yndhFI3tQyrYrt_VnYW2xpkrkA_2jERDx8fxHXDUi_U3dGKPlS-KTanhZ2hgp7tG9iyVFkGT_TZVapx8ocTGFQFWoQXtRA3hK0kVHeVLKMLll5x-_mPu1O0qK4051VJ9uyZvpmlTL972r78lCPN-Rd6hBVeuPsXeMfmzb9" style="">
+</div>
+<div class="flex flex-col justify-between py-1 flex-grow">
+<div>
+<h3 class="font-headline text-base font-bold text-primary leading-tight" style="">Ephemeral Architecture</h3>
+<p class="text-xs text-on-surface-variant mt-1" style="">ID: #ARCH-990122</p>
+</div>
+<div class="grid grid-cols-2 gap-2 text-xs mt-2">
+<div>
+<span class="block text-[10px] uppercase tracking-wider text-on-surface-variant font-semibold" style="">Type</span>
+<span class="text-on-surface" style="">Rental</span>
+</div>
+<div>
+<span class="block text-[10px] uppercase tracking-wider text-on-surface-variant font-semibold" style="">Date</span>
+<span class="text-on-surface" style="">Nov 02, 2023</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-end justify-between py-1 shrink-0">
+<span class="px-2 py-0.5 bg-surface-container-high text-primary text-[10px] font-bold uppercase tracking-wider rounded" style="">In Progress</span>
+<div class="text-right">
+<span class="block text-[10px] uppercase tracking-wider text-on-surface-variant font-semibold" style="">Amount</span>
+<span class="font-headline text-base font-bold text-primary" style="">$8.50</span>
+</div>
+</div>
+</div>
+<!-- Order Entry 3 -->
+<div class="bg-surface-container-lowest border border-surface-container-highest p-4 rounded-xl flex gap-5">
+<div class="shrink-0 w-20 h-28 bg-surface-container rounded-sm overflow-hidden border border-surface-container-highest">
+<img alt="Book Cover" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8RfjhZWCaqTD9LEZ4HbP-4j4XfykPLhKBFqzGQ8kvmTqMSNVKGJR6i6nD-e1scfgK3ROlwJCfder6BYiu16oFoKwC0Po9ZFBiIYsYY_IybVyR2OtJePTEpeLkmjAY63gGkobZ_EzkM3wV4Ic8q5HmQXSkP37nwi1CpjsQq3Uaa8hj-_PfBc4bpo7Duxl7MU4kapFgAeYYdhZvS95TyLytxbXn7Pw3d5AQ5DnrdEYcpFVCHXW_7P3QL3SHCc--IXLc5WEGoGPubWNg" style="">
+</div>
+<div class="flex flex-col justify-between py-1 flex-grow">
+<div>
+<h3 class="font-headline text-base font-bold text-primary leading-tight" style="">The Great Archive Donation</h3>
+<p class="text-xs text-on-surface-variant mt-1" style="">ID: #ARCH-442001</p>
+</div>
+<div class="grid grid-cols-2 gap-2 text-xs mt-2">
+<div>
+<span class="block text-[10px] uppercase tracking-wider text-on-surface-variant font-semibold" style="">Type</span>
+<span class="text-on-surface" style="">Donation</span>
+</div>
+<div>
+<span class="block text-[10px] uppercase tracking-wider text-on-surface-variant font-semibold" style="">Date</span>
+<span class="text-on-surface" style="">Dec 15, 2023</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-end justify-between py-1 shrink-0">
+<span class="px-2 py-0.5 bg-surface-container-high text-primary text-[10px] font-bold uppercase tracking-wider rounded" style="">Returned</span>
+<div class="text-right">
+<span class="block text-[10px] uppercase tracking-wider text-on-surface-variant font-semibold" style="">Value</span>
+<span class="font-headline text-base font-bold text-primary" style="">$120.00</span>
+</div>
+</div>
+</div>
+<!-- Summary Section -->
+<div class="mt-8">
+<div class="bg-primary p-6 rounded-2xl text-on-primary">
+<p class="text-[10px] uppercase tracking-[0.2em] font-semibold opacity-70 mb-1" style="">Member Statistics</p>
+<h4 class="font-headline text-2xl font-bold mb-6" style="">Total Archive Value</h4>
+<div class="flex items-baseline gap-2">
+<span class="text-3xl font-bold tracking-tight" style="">$1,248.50</span>
+<span class="text-xs opacity-60 font-medium" style="">USD Total</span>
+</div>
+<div class="mt-8 flex gap-6">
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-surface-container-high"></span>
+<span class="text-[10px] font-bold tracking-widest uppercase" style="">14 Purchases</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-surface-container-high"></span>
+<span class="text-[10px] font-bold tracking-widest uppercase" style="">8 Rentals</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</body></html>
