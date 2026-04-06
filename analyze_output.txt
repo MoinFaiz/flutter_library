@@ -1,0 +1,1149 @@
+﻿Analyzing flutter_library...                                    
+
+   info - Don't invoke 'print' in production code - coverage_report.dart:12:5 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:24:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:25:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:26:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:31:5 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:86:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:87:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:88:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:89:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:90:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:91:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:92:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:95:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:96:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:99:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:100:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:107:5 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:110:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:113:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:114:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:125:5 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:129:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:130:3 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:135:5 - avoid_print
+   info - Don't invoke 'print' in production code - coverage_report.dart:138:3 - avoid_print
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource.dart:8:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource.dart:11:10 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource.dart:14:10 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource.dart:17:10 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource.dart:32:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:18:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:34:10 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:50:10 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:66:10 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:144:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:212:8 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:239:8 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:241:22 - non_type_as_type_argument
+  error - BookModel isn't a type - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:276:3 - not_a_type
+  error - BookModel isn't a type - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:300:3 - not_a_type
+  error - The named parameter 'id' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:308:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:309:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:310:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:311:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:312:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:313:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:319:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:324:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:333:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:334:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:335:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:336:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:337:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:338:7 - undefined_named_parameter
+  error - BookModel isn't a type - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:342:3 - not_a_type
+  error - The named parameter 'id' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:346:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:347:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:348:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:349:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:352:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:353:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:367:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:372:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:381:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:382:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:383:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:384:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:385:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\book_upload\data\datasources\book_upload_remote_datasource_impl.dart:386:7 - undefined_named_parameter
+  error - The argument type 'List<dynamic>' can't be assigned to the parameter type 'List<Book>'.  - lib\features\book_upload\data\repositories\book_upload_repository_impl.dart:21:20 - argument_type_not_assignable
+  error - The name of a factory constructor must be the same as the name of the immediately enclosing class - lib\features\books\data\models\book_model.dart:66:11 - invalid_factory_name_not_a_class
+  error - The named parameter 'id' isn't defined - lib\features\books\data\models\book_model.dart:68:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\books\data\models\book_model.dart:69:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\books\data\models\book_model.dart:70:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\books\data\models\book_model.dart:71:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\books\data\models\book_model.dart:72:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\books\data\models\book_model.dart:73:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\books\data\models\book_model.dart:74:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\books\data\models\book_model.dart:75:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\books\data\models\book_model.dart:76:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\books\data\models\book_model.dart:77:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\books\data\models\book_model.dart:78:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\books\data\models\book_model.dart:79:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\books\data\models\book_model.dart:80:7 - undefined_named_parameter
+  error - The name of a factory constructor must be the same as the name of the immediately enclosing class - lib\features\books\data\models\book_model.dart:84:11 - invalid_factory_name_not_a_class
+  error - The named parameter 'id' isn't defined - lib\features\books\data\models\book_model.dart:134:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\books\data\models\book_model.dart:135:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\books\data\models\book_model.dart:136:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\books\data\models\book_model.dart:137:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\books\data\models\book_model.dart:141:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\books\data\models\book_model.dart:142:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\books\data\models\book_model.dart:143:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\books\data\models\book_model.dart:144:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\books\data\models\book_model.dart:145:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\books\data\models\book_model.dart:146:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\books\data\models\book_model.dart:147:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\books\data\models\book_model.dart:148:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\books\data\models\book_model.dart:151:7 - undefined_named_parameter
+  error - Top-level declarations can't be declared to be 'factory' - lib\features\books\data\models\book_model.dart:233:3 - factory_top_level_declaration
+   info - Missing type annotation - lib\features\books\data\models\book_model.dart:233:11 - strict_top_level_inference
+   info - The variable name 'BookModel' isn't a lowerCamelCase identifier - lib\features\books\data\models\book_model.dart:233:11 - non_constant_identifier_names
+  error - Functions must have an explicit list of parameters - lib\features\books\data\models\book_model.dart:233:11 - missing_function_parameters
+  error - The name 'BookModel' is already defined - lib\features\books\data\models\book_model.dart:233:11 - duplicate_definition
+  error - A function body must be provided - lib\features\books\data\models\book_model.dart:233:20 - missing_function_body
+  error - Expected a method, getter, setter or operator declaration - lib\features\books\data\models\book_model.dart:233:20 - expected_executable
+   info - Missing type annotation - lib\features\books\data\models\book_model.dart:233:21 - strict_top_level_inference
+  error - The named parameter 'id' isn't defined - lib\features\books\data\models\book_model.dart:282:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\books\data\models\book_model.dart:283:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\books\data\models\book_model.dart:284:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\books\data\models\book_model.dart:285:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\books\data\models\book_model.dart:288:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\books\data\models\book_model.dart:289:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\books\data\models\book_model.dart:290:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\books\data\models\book_model.dart:291:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\books\data\models\book_model.dart:292:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\books\data\models\book_model.dart:293:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\books\data\models\book_model.dart:294:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\books\data\models\book_model.dart:295:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\books\data\models\book_model.dart:296:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\books\data\models\book_model.dart:299:7 - undefined_named_parameter
+  error - Can't have modifier 'static' here - lib\features\books\data\models\book_model.dart:306:3 - extraneous_modifier
+  error - Undefined name 'id' - lib\features\books\data\models\book_model.dart:325:13 - undefined_identifier
+  error - Undefined name 'title' - lib\features\books\data\models\book_model.dart:326:16 - undefined_identifier
+  error - Undefined name 'author' - lib\features\books\data\models\book_model.dart:327:17 - undefined_identifier
+  error - Undefined name 'imageUrls' - lib\features\books\data\models\book_model.dart:328:20 - undefined_identifier
+  error - Undefined name 'rating' - lib\features\books\data\models\book_model.dart:329:17 - undefined_identifier
+  error - Undefined name 'pricing' - lib\features\books\data\models\book_model.dart:331:22 - undefined_identifier
+  error - Undefined name 'pricing' - lib\features\books\data\models\book_model.dart:332:32 - undefined_identifier
+  error - Undefined name 'pricing' - lib\features\books\data\models\book_model.dart:333:22 - undefined_identifier
+  error - Undefined name 'pricing' - lib\features\books\data\models\book_model.dart:334:32 - undefined_identifier
+  error - Undefined name 'pricing' - lib\features\books\data\models\book_model.dart:335:38 - undefined_identifier
+  error - Undefined name 'pricing' - lib\features\books\data\models\book_model.dart:336:38 - undefined_identifier
+  error - Undefined name 'pricing' - lib\features\books\data\models\book_model.dart:337:29 - undefined_identifier
+  error - Undefined name 'pricing' - lib\features\books\data\models\book_model.dart:338:29 - undefined_identifier
+  error - Undefined name 'availability' - lib\features\books\data\models\book_model.dart:341:34 - undefined_identifier
+  error - Undefined name 'availability' - lib\features\books\data\models\book_model.dart:342:34 - undefined_identifier
+  error - Undefined name 'availability' - lib\features\books\data\models\book_model.dart:343:24 - undefined_identifier
+  error - Undefined name 'metadata' - lib\features\books\data\models\book_model.dart:346:17 - undefined_identifier
+  error - Undefined name 'metadata' - lib\features\books\data\models\book_model.dart:347:22 - undefined_identifier
+  error - Undefined name 'metadata' - lib\features\books\data\models\book_model.dart:348:31 - undefined_identifier
+  error - Undefined name 'metadata' - lib\features\books\data\models\book_model.dart:349:19 - undefined_identifier
+  error - Undefined name 'metadata' - lib\features\books\data\models\book_model.dart:350:22 - undefined_identifier
+  error - Undefined name 'metadata' - lib\features\books\data\models\book_model.dart:351:21 - undefined_identifier
+  error - Undefined name 'metadata' - lib\features\books\data\models\book_model.dart:352:20 - undefined_identifier
+  error - Undefined name 'isFromFriend' - lib\features\books\data\models\book_model.dart:354:23 - undefined_identifier
+  error - Undefined name 'isFavorite' - lib\features\books\data\models\book_model.dart:355:21 - undefined_identifier
+  error - Undefined name 'description' - lib\features\books\data\models\book_model.dart:356:22 - undefined_identifier
+  error - Undefined name 'publishedYear' - lib\features\books\data\models\book_model.dart:357:24 - undefined_identifier
+  error - Undefined name 'createdAt' - lib\features\books\data\models\book_model.dart:358:20 - undefined_identifier
+  error - Undefined name 'updatedAt' - lib\features\books\data\models\book_model.dart:359:20 - undefined_identifier
+  error - Top-level declarations can't be declared to be 'factory' - lib\features\books\data\models\book_model.dart:363:3 - factory_top_level_declaration
+   info - Missing type annotation - lib\features\books\data\models\book_model.dart:363:11 - strict_top_level_inference
+   info - The variable name 'BookModel' isn't a lowerCamelCase identifier - lib\features\books\data\models\book_model.dart:363:11 - non_constant_identifier_names
+  error - Functions must have an explicit list of parameters - lib\features\books\data\models\book_model.dart:363:11 - missing_function_parameters
+  error - The name 'BookModel' is already defined - lib\features\books\data\models\book_model.dart:363:11 - duplicate_definition
+  error - A function body must be provided - lib\features\books\data\models\book_model.dart:363:20 - missing_function_body
+  error - Expected a method, getter, setter or operator declaration - lib\features\books\data\models\book_model.dart:363:20 - expected_executable
+   info - Missing type annotation - lib\features\books\data\models\book_model.dart:363:21 - strict_top_level_inference
+  error - The named parameter 'id' isn't defined - lib\features\books\data\models\book_model.dart:365:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\books\data\models\book_model.dart:366:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\books\data\models\book_model.dart:367:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\books\data\models\book_model.dart:368:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\books\data\models\book_model.dart:369:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\books\data\models\book_model.dart:370:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\books\data\models\book_model.dart:371:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\books\data\models\book_model.dart:372:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\books\data\models\book_model.dart:373:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\books\data\models\book_model.dart:374:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\books\data\models\book_model.dart:375:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\books\data\models\book_model.dart:376:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\books\data\models\book_model.dart:377:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\books\data\models\book_model.dart:378:7 - undefined_named_parameter
+  error - Expected a method, getter, setter or operator declaration - lib\features\books\data\models\book_model.dart:381:1 - expected_executable
+  error - The method 'fromJson' isn't defined for the type 'Function' - lib\features\cart\data\models\cart_item_model.dart:17:23 - undefined_method
+  error - The name 'BookModel' isn't a type, so it can't be used in an 'as' expression - lib\features\cart\data\models\cart_item_model.dart:28:24 - cast_to_non_type
+warning - Unused import: 'package:flutter_library/features/books/domain/entities/book.dart' - lib\features\favorites\presentation\bloc\favorites_bloc.dart:3:8 - unused_import
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_local_datasource.dart:8:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_local_datasource.dart:9:32 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_local_datasource.dart:25:15 - non_type_as_type_argument
+  error - The method 'fromJson' isn't defined for the type 'Function' - lib\features\home\data\datasources\book_local_datasource.dart:29:47 - undefined_method
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_local_datasource.dart:36:32 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_remote_datasource.dart:9:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_remote_datasource.dart:10:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_remote_datasource.dart:11:10 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_remote_datasource.dart:20:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_remote_datasource.dart:47:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_remote_datasource.dart:65:10 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\home\data\datasources\book_remote_datasource.dart:79:21 - non_type_as_type_argument
+  error - The named parameter 'id' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:81:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:82:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:83:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:84:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:88:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:89:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:99:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:104:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:113:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:114:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:115:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:116:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:117:7 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:120:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:121:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:122:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:123:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:126:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:127:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:135:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:140:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:149:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:150:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:151:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:152:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:153:7 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:156:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:157:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:158:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:159:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:163:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:164:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:174:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:179:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:188:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:189:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:190:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:191:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:192:7 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:195:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:196:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:197:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:198:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:202:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:203:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:209:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:214:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:223:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:224:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:225:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:226:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:227:7 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:230:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:231:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:232:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:233:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:236:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:237:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:247:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:252:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:261:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:262:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:263:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:264:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:265:7 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:268:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:269:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:270:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:271:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:274:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:275:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:281:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:286:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:295:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:296:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:297:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:298:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:299:7 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:302:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:303:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:304:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:305:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:306:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:307:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:317:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:322:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:331:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:332:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:333:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:334:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\home\data\datasources\book_remote_datasource.dart:335:7 - undefined_named_parameter
+  error - The returned type 'List<dynamic>' isn't returnable from a 'Future<List<Book>>' function, as required by the closure's context - lib\features\home\data\repositories\book_repository_impl.dart:28:20 - return_of_invalid_type_from_closure
+  error - The returned type 'List<dynamic>' isn't returnable from a 'Future<List<Book>>' function, as required by the closure's context - lib\features\home\data\repositories\book_repository_impl.dart:43:14 - return_of_invalid_type_from_closure
+  error - The returned type 'List<dynamic>' isn't returnable from a 'Future<List<Book>>' function, as required by the closure's context - lib\features\home\data\repositories\book_repository_impl.dart:51:14 - return_of_invalid_type_from_closure
+  error - The method 'map' isn't defined for the type 'Object' - lib\features\home\presentation\bloc\home_bloc.dart:51:32 - undefined_method
+  error - The getter 'length' isn't defined for the type 'Object' - lib\features\home\presentation\bloc\home_bloc.dart:55:26 - undefined_getter
+  error - The method 'map' isn't defined for the type 'Object' - lib\features\home\presentation\bloc\home_bloc.dart:112:34 - undefined_method
+  error - The method 'map' isn't defined for the type 'Object' - lib\features\home\presentation\bloc\home_bloc.dart:162:34 - undefined_method
+  error - The getter 'length' isn't defined for the type 'Object' - lib\features\home\presentation\bloc\home_bloc.dart:166:28 - undefined_getter
+  error - The method 'map' isn't defined for the type 'Object' - lib\features\home\presentation\bloc\home_bloc.dart:186:32 - undefined_method
+  error - The getter 'length' isn't defined for the type 'Object' - lib\features\home\presentation\bloc\home_bloc.dart:190:26 - undefined_getter
+  error - The name 'HomeBloc' is already defined - lib\features\home\presentation\bloc\home_bloc.dart:197:7 - duplicate_definition
+  error - The name 'Book' isn't a type, so it can't be used as a type argument - lib\features\home\presentation\bloc\home_bloc.dart:295:22 - non_type_as_type_argument
+  error - The method 'cancelPendingSearch' isn't defined for the type 'SearchBooksUseCase' - lib\features\home\presentation\bloc\home_bloc.dart:346:24 - undefined_method
+  error - The method 'clearSearchCache' isn't defined for the type 'SearchBooksUseCase' - lib\features\home\presentation\bloc\home_bloc.dart:351:24 - undefined_method
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\library\data\datasources\library_remote_datasource.dart:6:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\library\data\datasources\library_remote_datasource.dart:9:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\library\data\datasources\library_remote_datasource_impl.dart:16:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\library\data\datasources\library_remote_datasource_impl.dart:29:15 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\library\data\datasources\library_remote_datasource_impl.dart:41:8 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\library\data\datasources\library_remote_datasource_impl.dart:60:8 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\library\data\datasources\library_remote_datasource_impl.dart:81:12 - non_type_as_type_argument
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:83:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:84:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:85:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:86:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:89:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:90:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:96:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:101:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:110:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:111:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:112:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:113:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:114:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:115:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:118:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:119:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:120:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:121:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:124:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:125:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:131:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:136:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:145:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:146:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:147:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:148:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:149:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:150:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:153:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:154:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:155:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:156:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:159:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:160:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:166:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:171:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:180:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:181:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:182:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:183:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:184:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:185:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:188:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:189:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:190:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:191:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:194:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:195:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:201:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:206:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:215:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:216:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:217:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:218:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:219:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:220:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:223:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:224:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:225:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:226:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:229:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:230:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:236:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:241:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:250:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:251:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:252:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:253:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:254:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:255:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:258:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:259:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:260:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:261:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:264:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:265:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:271:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:276:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:285:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:286:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:287:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:288:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:289:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:290:5 - undefined_named_parameter
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - lib\features\library\data\datasources\library_remote_datasource_impl.dart:295:12 - non_type_as_type_argument
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:297:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:298:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:299:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:300:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:303:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:304:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:310:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:315:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:324:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:325:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:326:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:327:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:328:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:329:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:332:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:333:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:334:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:335:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:338:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:339:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:345:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:350:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:359:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:360:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:361:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:362:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:363:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:364:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:367:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:368:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:369:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:370:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:373:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:374:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:380:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:385:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:394:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:395:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:396:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:397:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:398:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:399:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:402:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:403:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:404:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:405:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:408:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:409:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:415:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:420:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:429:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:430:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:431:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:432:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:433:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:434:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:437:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:438:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:439:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:440:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:443:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:444:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:450:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:455:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:464:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:465:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:466:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:467:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:468:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:469:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:472:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:473:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:474:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:475:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:478:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:479:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:485:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:490:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:499:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:500:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:501:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:502:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:503:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:504:5 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:507:5 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:508:5 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:509:5 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:510:5 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:513:5 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:514:5 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:520:5 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:525:5 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:534:5 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:535:5 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:536:5 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:537:5 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:538:5 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - lib\features\library\data\datasources\library_remote_datasource_impl.dart:539:5 - undefined_named_parameter
+  error - The argument type 'List<dynamic>' can't be assigned to the parameter type 'List<Book>'.  - lib\features\library\data\repositories\library_repository_impl.dart:24:20 - argument_type_not_assignable
+  error - The argument type 'List<dynamic>' can't be assigned to the parameter type 'List<Book>'.  - lib\features\library\data\repositories\library_repository_impl.dart:40:20 - argument_type_not_assignable
+  error - The argument type 'List<dynamic>' can't be assigned to the parameter type 'List<Book>'.  - lib\features\library\data\repositories\library_repository_impl.dart:54:20 - argument_type_not_assignable
+  error - The argument type 'List<dynamic>' can't be assigned to the parameter type 'List<Book>'.  - lib\features\library\data\repositories\library_repository_impl.dart:68:20 - argument_type_not_assignable
+  error - 1 positional argument expected by 'CacheFailure.new', but 0 found - lib\features\policies\data\repositories\policy_repository_impl.dart:41:32 - not_enough_positional_arguments
+  error - The named parameter 'message' isn't defined - lib\features\policies\data\repositories\policy_repository_impl.dart:41:32 - undefined_named_parameter
+  error - 1 positional argument expected by 'CacheFailure.new', but 0 found - lib\features\policies\data\repositories\policy_repository_impl.dart:52:32 - not_enough_positional_arguments
+  error - The named parameter 'message' isn't defined - lib\features\policies\data\repositories\policy_repository_impl.dart:52:32 - undefined_named_parameter
+  error - 1 positional argument expected by 'CacheFailure.new', but 0 found - lib\features\policies\data\repositories\policy_repository_impl.dart:62:32 - not_enough_positional_arguments
+  error - The named parameter 'message' isn't defined - lib\features\policies\data\repositories\policy_repository_impl.dart:62:32 - undefined_named_parameter
+  error - 1 positional argument expected by 'CacheFailure.new', but 0 found - lib\features\settings\data\repositories\theme_repository_impl.dart:28:32 - not_enough_positional_arguments
+  error - The named parameter 'message' isn't defined - lib\features\settings\data\repositories\theme_repository_impl.dart:28:32 - undefined_named_parameter
+  error - The named parameter 'getFavoriteIdsUseCase' isn't defined - lib\injection\modules\books_injection.dart:42:7 - undefined_named_parameter
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:49:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:67:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:72:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:75:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:90:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:94:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:114:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:116:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:130:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:136:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:154:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:158:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:169:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:186:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:188:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:201:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:213:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:218:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:221:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\book_upload_system_test.dart:224:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:25:5 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:26:5 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:27:5 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:30:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:35:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:40:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:45:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:50:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:55:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:61:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:62:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:63:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:64:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:65:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:66:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:67:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:68:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:69:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:70:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:71:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:72:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:73:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:74:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:75:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:76:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:77:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:78:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:79:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:87:5 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\comprehensive_system_test_runner.dart:89:5 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:34:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:40:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:49:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:65:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:75:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:87:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:98:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:110:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:122:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:131:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:147:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:159:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:170:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:180:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:181:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:182:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:183:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:184:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:185:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:186:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:187:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:188:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:189:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:190:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:215:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:243:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:285:5 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:315:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:340:5 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:368:5 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_app_system_test.dart:404:5 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:27:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:40:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:47:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:74:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:89:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:106:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:127:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:137:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:148:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:180:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:196:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:202:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:206:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:250:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:265:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:279:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:282:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\library_management_system_test.dart:306:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:26:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:50:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:63:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:78:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:83:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:90:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:102:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:112:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:135:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:141:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:155:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:164:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:189:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:206:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:212:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:215:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:235:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:252:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:258:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:261:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:276:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:293:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:300:15 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:304:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:321:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:346:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:352:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:365:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\notifications_system_test.dart:417:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:27:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:39:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:56:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:62:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:65:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:92:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:112:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:123:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:127:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:157:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:163:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:180:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:201:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:209:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:212:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:215:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:225:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:235:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:256:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:269:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:289:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:311:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:347:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:354:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:365:17 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:370:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:373:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:404:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:411:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:415:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:435:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:441:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\profile_system_test.dart:460:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:27:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:48:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:63:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:70:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:74:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:78:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:98:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:105:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:111:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:135:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:140:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:145:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:153:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:161:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:167:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:179:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:182:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:210:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:226:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:236:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:239:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:250:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:259:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:272:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:299:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:316:15 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:326:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:341:9 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:358:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:369:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:376:13 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:405:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:423:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:429:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:446:7 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:461:11 - avoid_print
+   info - Don't invoke 'print' in production code - test\integration\search_system_test.dart:470:11 - avoid_print
+  error - The argument type 'Book' can't be assigned to the parameter type 'bool'.  - test\unit\blocs\book_details_bloc_test.dart:301:46 - argument_type_not_assignable
+  error - The argument type 'Book' can't be assigned to the parameter type 'bool'.  - test\unit\blocs\book_details_bloc_test.dart:389:46 - argument_type_not_assignable
+  error - The argument type 'Book' can't be assigned to the parameter type 'bool'.  - test\unit\blocs\book_details_bloc_test.dart:452:46 - argument_type_not_assignable
+  error - Target of URI doesn't exist: 'package:flutter_library/features/book_upload/domain/usecases/search_books_usecase.dart' - test\unit\blocs\book_upload_bloc_test.dart:8:8 - uri_does_not_exist
+  error - Classes and mixins can only implement other classes and mixins - test\unit\blocs\book_upload_bloc_test.dart:22:54 - implements_non_class
+  error - The argument type 'MockSearchBooksUseCase' can't be assigned to the parameter type 'SearchBooksForUploadUseCase'.  - test\unit\blocs\book_upload_bloc_test.dart:55:29 - argument_type_not_assignable
+  error - The method 'call' isn't defined for the type 'MockSearchBooksUseCase' - test\unit\blocs\book_upload_bloc_test.dart:107:43 - undefined_method
+  error - The method 'call' isn't defined for the type 'MockSearchBooksUseCase' - test\unit\blocs\book_upload_bloc_test.dart:139:45 - undefined_method
+  error - The method 'call' isn't defined for the type 'MockSearchBooksUseCase' - test\unit\blocs\book_upload_bloc_test.dart:146:43 - undefined_method
+  error - The argument type 'Book' can't be assigned to the parameter type 'bool'.  - test\unit\blocs\favorites_bloc_test.dart:76:30 - argument_type_not_assignable
+  error - The argument type 'Book' can't be assigned to the parameter type 'bool'.  - test\unit\blocs\favorites_bloc_test.dart:100:30 - argument_type_not_assignable
+  error - The argument type 'Book' can't be assigned to the parameter type 'bool'.  - test\unit\blocs\favorites_bloc_test.dart:164:30 - argument_type_not_assignable
+  error - The argument type 'Book' can't be assigned to the parameter type 'bool'.  - test\unit\blocs\home_bloc_edge_cases_test.dart:71:28 - argument_type_not_assignable
+  error - The argument type 'Book' can't be assigned to the parameter type 'bool'.  - test\unit\blocs\home_bloc_test.dart:176:30 - argument_type_not_assignable
+  error - The method 'cancelPendingSearch' isn't defined for the type 'MockSearchBooksUseCase' - test\unit\blocs\home_bloc_test.dart:375:43 - undefined_method
+  error - The method 'clearSearchCache' isn't defined for the type 'MockSearchBooksUseCase' - test\unit\blocs\home_bloc_test.dart:383:43 - undefined_method
+  error - The named parameter 'baseUrl' isn't defined - test\unit\core\logging\data\datasources\logging_remote_data_source_impl_test.dart:27:7 - undefined_named_parameter
+  error - The named parameter 'baseUrl' isn't defined - test\unit\core\logging\data\datasources\logging_remote_data_source_impl_test.dart:489:11 - undefined_named_parameter
+warning - Dead code - test\unit\core\logging\services\app_logger_test.dart:271:11 - dead_code
+warning - Dead code - test\unit\core\logging\services\app_logger_test.dart:308:11 - dead_code
+  error - The method 'getGridCrossAxisCount' isn't defined for the type 'UIUtils' - test\unit\core\utils\ui_utils_test.dart:359:39 - undefined_method
+  error - The method 'getResponsivePadding' isn't defined for the type 'UIUtils' - test\unit\core\utils\ui_utils_test.dart:389:41 - undefined_method
+  error - The method 'getHorizontalBookCardWidth' isn't defined for the type 'UIUtils' - test\unit\core\utils\ui_utils_test.dart:418:39 - undefined_method
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_local_datasource_test.dart:47:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_local_datasource_test.dart:77:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_local_datasource_test.dart:85:31 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:25:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:30:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:42:32 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:43:32 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:58:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:82:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:86:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:98:36 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:99:39 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:117:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:152:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:196:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:205:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:214:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:226:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:235:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:245:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_remote_datasource_test.dart:246:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:32:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:36:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:67:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:78:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:89:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:121:30 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:153:42 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:164:42 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:212:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:243:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:309:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:829:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:833:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:970:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:981:42 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1009:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1137:39 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1138:52 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1143:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1144:49 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1360:37 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1361:37 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1651:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1685:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1716:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1745:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1775:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1804:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1834:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1865:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1896:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\book_upload_remote_datasource_test.dart:1949:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:25:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:29:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:42:32 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:43:32 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:58:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:97:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:101:28 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:114:32 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:115:32 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:130:33 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:153:40 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:154:40 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:174:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:175:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:187:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:188:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:189:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:190:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:200:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:201:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:212:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:213:34 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:221:38 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:231:35 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:244:37 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\datasources\library_remote_datasource_test.dart:245:37 - non_type_as_type_argument
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:58:71 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:113:71 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:133:71 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:145:71 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:165:73 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:177:73 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:196:73 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:207:73 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:227:74 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:239:74 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:259:72 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:271:72 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:293:48 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:314:48 - undefined_getter
+  error - The getter 'baseUrl' isn't defined for the type 'NotificationsRemoteDataSourceImpl' - test\unit\datasources\notifications_remote_datasource_impl_test.dart:330:48 - undefined_getter
+  error - The getter 'typeDisplayText' isn't defined for the type 'Order' - test\unit\entities\order_entity_test.dart:99:30 - undefined_getter
+  error - The getter 'typeDisplayText' isn't defined for the type 'Order' - test\unit\entities\order_entity_test.dart:104:28 - undefined_getter
+  error - The getter 'statusDisplayText' isn't defined for the type 'Order' - test\unit\entities\order_entity_test.dart:108:64 - undefined_getter
+  error - The getter 'statusDisplayText' isn't defined for the type 'Order' - test\unit\entities\order_entity_test.dart:109:67 - undefined_getter
+  error - The getter 'statusDisplayText' isn't defined for the type 'Order' - test\unit\entities\order_entity_test.dart:110:64 - undefined_getter
+  error - The getter 'statusDisplayText' isn't defined for the type 'Order' - test\unit\entities\order_entity_test.dart:111:66 - undefined_getter
+  error - The getter 'statusDisplayText' isn't defined for the type 'Order' - test\unit\entities\order_entity_test.dart:112:65 - undefined_getter
+  error - The getter 'statusDisplayText' isn't defined for the type 'Order' - test\unit\entities\order_entity_test.dart:113:66 - undefined_getter
+  error - The getter 'statusDisplayText' isn't defined for the type 'Order' - test\unit\entities\order_entity_test.dart:114:66 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'Review' - test\unit\features\book_details\domain\entities\review_test.dart:105:37 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'Review' - test\unit\features\book_details\domain\entities\review_test.dart:118:37 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'Review' - test\unit\features\book_details\domain\entities\review_test.dart:131:37 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'Review' - test\unit\features\book_details\domain\entities\review_test.dart:144:37 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'Review' - test\unit\features\book_details\domain\entities\review_test.dart:157:37 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'Review' - test\unit\features\book_details\domain\entities\review_test.dart:170:34 - undefined_getter
+  error - The named parameter 'id' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:27:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:28:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:29:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:30:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:31:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:32:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:38:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:43:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:52:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:53:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:54:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:55:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:56:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:57:7 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:61:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:62:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:63:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:64:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:65:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:66:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:72:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:77:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:86:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:87:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:88:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:89:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:90:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:91:7 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:252:15 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:253:15 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:254:15 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:255:15 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:256:15 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:257:15 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:263:15 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:268:15 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:277:15 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:278:15 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:279:15 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:280:15 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:281:15 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - test\unit\features\cart\data\datasources\cart_local_datasource_test.dart:282:15 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:34:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:35:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:36:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:37:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:38:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:39:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:45:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:50:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:59:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:60:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:61:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:62:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:63:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - test\unit\features\cart\data\datasources\cart_remote_datasource_impl_test.dart:64:7 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:45:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:46:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:47:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:48:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:49:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:50:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:54:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:59:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:65:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:66:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:67:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:68:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:69:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - test\unit\features\cart\data\models\cart_item_model_test.dart:70:7 - undefined_named_parameter
+   info - Assignment to a variable of type 'void' - test\unit\features\notifications\domain\services\pending_request_service_test.dart:774:48 - void_checks
+   info - Assignment to a variable of type 'void' - test\unit\features\notifications\domain\services\pending_request_service_test.dart:810:48 - void_checks
+   info - Assignment to a variable of type 'void' - test\unit\features\notifications\domain\services\pending_request_service_test.dart:948:48 - void_checks
+   info - Assignment to a variable of type 'void' - test\unit\features\notifications\domain\services\pending_request_service_test.dart:998:48 - void_checks
+   info - Assignment to a variable of type 'void' - test\unit\features\notifications\domain\services\pending_request_service_test.dart:1038:48 - void_checks
+   info - Assignment to a variable of type 'void' - test\unit\features\notifications\domain\services\pending_request_service_test.dart:1074:48 - void_checks
+   info - Assignment to a variable of type 'void' - test\unit\features\notifications\domain\services\pending_request_service_test.dart:1225:48 - void_checks
+  error - The named parameter 'id' isn't defined - test\unit\models\book_model_test.dart:14:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - test\unit\models\book_model_test.dart:15:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - test\unit\models\book_model_test.dart:16:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - test\unit\models\book_model_test.dart:17:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - test\unit\models\book_model_test.dart:18:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - test\unit\models\book_model_test.dart:19:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - test\unit\models\book_model_test.dart:29:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - test\unit\models\book_model_test.dart:34:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - test\unit\models\book_model_test.dart:43:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - test\unit\models\book_model_test.dart:44:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - test\unit\models\book_model_test.dart:45:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - test\unit\models\book_model_test.dart:46:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - test\unit\models\book_model_test.dart:47:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - test\unit\models\book_model_test.dart:48:7 - undefined_named_parameter
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:136:34 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:166:34 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:196:34 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:215:34 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:233:34 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:258:36 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:288:36 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:305:34 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:323:34 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:340:32 - undefined_method
+  error - The named parameter 'id' isn't defined - test\unit\models\book_model_test.dart:408:11 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - test\unit\models\book_model_test.dart:409:11 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - test\unit\models\book_model_test.dart:410:11 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - test\unit\models\book_model_test.dart:411:11 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - test\unit\models\book_model_test.dart:412:11 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - test\unit\models\book_model_test.dart:413:11 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - test\unit\models\book_model_test.dart:417:11 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - test\unit\models\book_model_test.dart:422:11 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - test\unit\models\book_model_test.dart:428:11 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - test\unit\models\book_model_test.dart:429:11 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - test\unit\models\book_model_test.dart:430:11 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - test\unit\models\book_model_test.dart:431:11 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - test\unit\models\book_model_test.dart:432:11 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - test\unit\models\book_model_test.dart:433:11 - undefined_named_parameter
+  error - The method 'fromEntity' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:484:34 - undefined_method
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\models\book_model_test.dart:487:28 - non_type_as_type_argument
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:509:41 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:549:34 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:572:34 - undefined_method
+  error - The method 'fromJson' isn't defined for the type 'Function' - test\unit\models\book_model_test.dart:598:34 - undefined_method
+  error - The getter 'typeDisplayText' isn't defined for the type 'OrderModel' - test\unit\models\order_model_test.dart:433:30 - undefined_getter
+  error - The getter 'typeDisplayText' isn't defined for the type 'OrderModel' - test\unit\models\order_model_test.dart:434:28 - undefined_getter
+  error - The getter 'statusDisplayText' isn't defined for the type 'OrderModel' - test\unit\models\order_model_test.dart:450:24 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1198:25 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1222:25 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1246:25 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1270:25 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1294:25 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1318:25 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1342:25 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1366:25 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1390:25 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1414:25 - undefined_getter
+  error - The getter 'timeAgo' isn't defined for the type 'ReviewModel' - test\unit\models\review_model_test.dart:1438:25 - undefined_getter
+  error - Classes and mixins can only implement other classes and mixins - test\unit\repositories\book_repository_impl_test.dart:15:45 - implements_non_class
+  error - BookModel isn't a type - test\unit\repositories\book_repository_impl_test.dart:36:3 - not_a_type
+  error - The named parameter 'id' isn't defined - test\unit\repositories\book_repository_impl_test.dart:57:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - test\unit\repositories\book_repository_impl_test.dart:58:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - test\unit\repositories\book_repository_impl_test.dart:59:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - test\unit\repositories\book_repository_impl_test.dart:60:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - test\unit\repositories\book_repository_impl_test.dart:61:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - test\unit\repositories\book_repository_impl_test.dart:62:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - test\unit\repositories\book_repository_impl_test.dart:63:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - test\unit\repositories\book_repository_impl_test.dart:67:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - test\unit\repositories\book_repository_impl_test.dart:72:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - test\unit\repositories\book_repository_impl_test.dart:78:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - test\unit\repositories\book_repository_impl_test.dart:79:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - test\unit\repositories\book_repository_impl_test.dart:80:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - test\unit\repositories\book_repository_impl_test.dart:81:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - test\unit\repositories\book_repository_impl_test.dart:82:7 - undefined_named_parameter
+  error - The named parameter 'id' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:94:7 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:95:7 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:96:7 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:97:7 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:98:7 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:99:7 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:103:7 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:108:7 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:116:7 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:117:7 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:118:7 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:119:7 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:120:7 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - test\unit\repositories\book_upload_repository_impl_test.dart:121:7 - undefined_named_parameter
+  error - BookModel isn't a type - test\unit\repositories\library_repository_impl_test.dart:29:5 - not_a_type
+  error - The named parameter 'id' isn't defined - test\unit\repositories\library_repository_impl_test.dart:50:9 - undefined_named_parameter
+  error - The named parameter 'title' isn't defined - test\unit\repositories\library_repository_impl_test.dart:51:9 - undefined_named_parameter
+  error - The named parameter 'author' isn't defined - test\unit\repositories\library_repository_impl_test.dart:52:9 - undefined_named_parameter
+  error - The named parameter 'description' isn't defined - test\unit\repositories\library_repository_impl_test.dart:53:9 - undefined_named_parameter
+  error - The named parameter 'imageUrls' isn't defined - test\unit\repositories\library_repository_impl_test.dart:54:9 - undefined_named_parameter
+  error - The named parameter 'rating' isn't defined - test\unit\repositories\library_repository_impl_test.dart:55:9 - undefined_named_parameter
+  error - The named parameter 'pricing' isn't defined - test\unit\repositories\library_repository_impl_test.dart:56:9 - undefined_named_parameter
+  error - The named parameter 'availability' isn't defined - test\unit\repositories\library_repository_impl_test.dart:60:9 - undefined_named_parameter
+  error - The named parameter 'metadata' isn't defined - test\unit\repositories\library_repository_impl_test.dart:65:9 - undefined_named_parameter
+  error - The named parameter 'isFavorite' isn't defined - test\unit\repositories\library_repository_impl_test.dart:71:9 - undefined_named_parameter
+  error - The named parameter 'isFromFriend' isn't defined - test\unit\repositories\library_repository_impl_test.dart:72:9 - undefined_named_parameter
+  error - The named parameter 'publishedYear' isn't defined - test\unit\repositories\library_repository_impl_test.dart:73:9 - undefined_named_parameter
+  error - The named parameter 'createdAt' isn't defined - test\unit\repositories\library_repository_impl_test.dart:74:9 - undefined_named_parameter
+  error - The named parameter 'updatedAt' isn't defined - test\unit\repositories\library_repository_impl_test.dart:75:9 - undefined_named_parameter
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\repositories\library_repository_impl_test.dart:129:39 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\repositories\library_repository_impl_test.dart:256:39 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\repositories\library_repository_impl_test.dart:385:39 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\repositories\library_repository_impl_test.dart:478:39 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\repositories\library_repository_impl_test.dart:637:39 - non_type_as_type_argument
+  error - The name 'BookModel' isn't a type, so it can't be used as a type argument - test\unit\repositories\library_repository_impl_test.dart:669:39 - non_type_as_type_argument
+  error - The getter 'id' isn't defined for the type 'Either<Failure, Policy>' - test\unit\repositories\policy_repository_impl_test.dart:63:23 - undefined_getter
+  error - The getter 'title' isn't defined for the type 'Either<Failure, Policy>' - test\unit\repositories\policy_repository_impl_test.dart:64:23 - undefined_getter
+  error - The getter 'content' isn't defined for the type 'Either<Failure, Policy>' - test\unit\repositories\policy_repository_impl_test.dart:65:23 - undefined_getter
+  error - The getter 'id' isn't defined for the type 'Either<Failure, Policy>' - test\unit\repositories\policy_repository_impl_test.dart:81:23 - undefined_getter
+  error - The getter 'title' isn't defined for the type 'Either<Failure, Policy>' - test\unit\repositories\policy_repository_impl_test.dart:82:23 - undefined_getter
+warning - The '!' will have no effect because the receiver can't be null - test\unit\repositories\policy_repository_impl_test.dart:112:22 - unnecessary_non_null_assertion
+  error - The getter 'id' isn't defined for the type 'Either<Failure, Policy?>' - test\unit\repositories\policy_repository_impl_test.dart:112:24 - undefined_getter
+  error - Target of URI doesn't exist: 'package:flutter_library/features/book_upload/domain/usecases/search_books_usecase.dart' - test\unit\usecases\book_upload_search_books_usecase_test.dart:4:8 - uri_does_not_exist
+  error - Undefined class 'SearchBooksUseCase' - test\unit\usecases\book_upload_search_books_usecase_test.dart:17:10 - undefined_class
+  error - The function 'SearchBooksUseCase' isn't defined - test\unit\usecases\book_upload_search_books_usecase_test.dart:22:17 - undefined_function
+  error - The named parameter 'favoritesRepository' isn't defined - test\unit\usecases\get_books_usecase_error_handling_test.dart:24:9 - undefined_named_parameter
+  error - The returned type 'Null' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:42:36 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:44:36 - return_of_invalid_type_from_closure
+  error - The returned type 'Map<dynamic, dynamic>' isn't returnable from a 'Future<Either<Failure, void>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:46:36 - return_of_invalid_type_from_closure
+  error - The getter 'id' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\get_policy_usecase_test.dart:56:21 - undefined_getter
+  error - The getter 'title' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\get_policy_usecase_test.dart:57:21 - undefined_getter
+  error - The getter 'content' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\get_policy_usecase_test.dart:58:21 - undefined_getter
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:64:36 - return_of_invalid_type_from_closure
+  error - The returned type 'bool' isn't returnable from a 'Future<Either<Failure, bool>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:66:36 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:81:36 - return_of_invalid_type_from_closure
+  error - The returned type 'bool' isn't returnable from a 'Future<Either<Failure, bool>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:83:36 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:85:36 - return_of_invalid_type_from_closure
+  error - The returned type 'Map<dynamic, dynamic>' isn't returnable from a 'Future<Either<Failure, void>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:87:36 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:103:36 - return_of_invalid_type_from_closure
+  error - The returned type 'bool' isn't returnable from a 'Future<Either<Failure, bool>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:105:36 - return_of_invalid_type_from_closure
+  error - The body might complete normally, causing 'null' to be returned, but the return type, 'FutureOr<Either<Failure, void>>', is a potentially non-nullable type - test\unit\usecases\get_policy_usecase_test.dart:109:33 - body_might_complete_normally
+  error - The returned type 'Null' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\get_policy_usecase_test.dart:123:36 - return_of_invalid_type_from_closure
+  error - The named parameter 'favoritesRepository' isn't defined - test\unit\usecases\home_usecases_test.dart:30:9 - undefined_named_parameter
+  error - The named parameter 'favoritesRepository' isn't defined - test\unit\usecases\home_usecases_test.dart:34:9 - undefined_named_parameter
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:41:38 - return_of_invalid_type_from_closure
+  error - The returned type 'bool' isn't returnable from a 'Future<Either<Failure, bool>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:43:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:59:38 - return_of_invalid_type_from_closure
+  error - The returned type 'bool' isn't returnable from a 'Future<Either<Failure, bool>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:61:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:63:38 - return_of_invalid_type_from_closure
+  error - The body might complete normally, causing 'null' to be returned, but the return type, 'FutureOr<Either<Failure, void>>', is a potentially non-nullable type - test\unit\usecases\policy_usecases_test.dart:65:35 - body_might_complete_normally
+  error - The returned type 'Null' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:81:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:83:38 - return_of_invalid_type_from_closure
+  error - The body might complete normally, causing 'null' to be returned, but the return type, 'FutureOr<Either<Failure, void>>', is a potentially non-nullable type - test\unit\usecases\policy_usecases_test.dart:85:35 - body_might_complete_normally
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:101:38 - return_of_invalid_type_from_closure
+  error - The returned type 'bool' isn't returnable from a 'Future<Either<Failure, bool>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:103:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Null' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:119:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Null' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:141:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:143:38 - return_of_invalid_type_from_closure
+  error - The body might complete normally, causing 'null' to be returned, but the return type, 'FutureOr<Either<Failure, void>>', is a potentially non-nullable type - test\unit\usecases\policy_usecases_test.dart:145:35 - body_might_complete_normally
+  error - The getter 'id' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:151:23 - undefined_getter
+  error - The getter 'title' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:152:23 - undefined_getter
+  error - The getter 'version' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:153:23 - undefined_getter
+  error - The returned type 'Null' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:178:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:180:38 - return_of_invalid_type_from_closure
+  error - The body might complete normally, causing 'null' to be returned, but the return type, 'FutureOr<Either<Failure, void>>', is a potentially non-nullable type - test\unit\usecases\policy_usecases_test.dart:182:35 - body_might_complete_normally
+  error - The getter 'title' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:188:23 - undefined_getter
+  error - The getter 'content' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:189:23 - undefined_getter
+  error - The getter 'content' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:190:23 - undefined_getter
+  error - The getter 'content' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:191:23 - undefined_getter
+  error - The returned type 'Null' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:205:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:207:38 - return_of_invalid_type_from_closure
+  error - The body might complete normally, causing 'null' to be returned, but the return type, 'FutureOr<Either<Failure, void>>', is a potentially non-nullable type - test\unit\usecases\policy_usecases_test.dart:209:35 - body_might_complete_normally
+  error - The getter 'content' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:215:23 - undefined_getter
+  error - The getter 'title' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:216:23 - undefined_getter
+  error - The returned type 'Null' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:222:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:226:18 - return_of_invalid_type_from_closure
+  error - The body might complete normally, causing 'null' to be returned, but the return type, 'FutureOr<Either<Failure, void>>', is a potentially non-nullable type - test\unit\usecases\policy_usecases_test.dart:229:35 - body_might_complete_normally
+  error - The returned type 'Null' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:246:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Null' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:260:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:262:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy?>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:294:38 - return_of_invalid_type_from_closure
+  error - The returned type 'bool' isn't returnable from a 'Future<Either<Failure, bool>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:296:38 - return_of_invalid_type_from_closure
+  error - The returned type 'Policy' isn't returnable from a 'Future<Either<Failure, Policy>>' function, as required by the closure's context - test\unit\usecases\policy_usecases_test.dart:298:38 - return_of_invalid_type_from_closure
+  error - The body might complete normally, causing 'null' to be returned, but the return type, 'FutureOr<Either<Failure, void>>', is a potentially non-nullable type - test\unit\usecases\policy_usecases_test.dart:300:35 - body_might_complete_normally
+  error - The getter 'title' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:307:23 - undefined_getter
+  error - The getter 'version' isn't defined for the type 'Either<Failure, Policy>' - test\unit\usecases\policy_usecases_test.dart:308:23 - undefined_getter
+  error - The named parameter 'favoritesRepository' isn't defined - test\unit\usecases\search_books_usecase_test.dart:29:9 - undefined_named_parameter
+  error - The method 'cancelPendingSearch' isn't defined for the type 'SearchBooksUseCase' - test\unit\usecases\search_books_usecase_test.dart:610:30 - undefined_method
+  error - The method 'clearSearchCache' isn't defined for the type 'SearchBooksUseCase' - test\unit\usecases\search_books_usecase_test.dart:615:30 - undefined_method
+  error - A value of type 'Set<String>' can't be assigned to a parameter of type 'List<String>' in a const constructor - test\unit\usecases\toggle_favorite_usecase_test.dart:26:48 - const_constructor_param_type_mismatch
+  error - The argument type 'Set<String>' can't be assigned to the parameter type 'List<String>'.  - test\unit\usecases\toggle_favorite_usecase_test.dart:26:48 - argument_type_not_assignable
+  error - A value of type 'Set<String>' can't be assigned to a parameter of type 'List<String>' in a const constructor - test\unit\usecases\toggle_favorite_usecase_test.dart:44:48 - const_constructor_param_type_mismatch
+  error - The argument type 'Set<String>' can't be assigned to the parameter type 'List<String>'.  - test\unit\usecases\toggle_favorite_usecase_test.dart:44:48 - argument_type_not_assignable
+  error - A value of type 'Set<String>' can't be assigned to a parameter of type 'List<String>' in a const constructor - test\unit\usecases\toggle_favorite_usecase_test.dart:79:48 - const_constructor_param_type_mismatch
+  error - The argument type 'Set<String>' can't be assigned to the parameter type 'List<String>'.  - test\unit\usecases\toggle_favorite_usecase_test.dart:79:48 - argument_type_not_assignable
+  error - A value of type 'Set<String>' can't be assigned to a parameter of type 'List<String>' in a const constructor - test\unit\usecases\toggle_favorite_usecase_test.dart:95:48 - const_constructor_param_type_mismatch
+  error - The argument type 'Set<String>' can't be assigned to the parameter type 'List<String>'.  - test\unit\usecases\toggle_favorite_usecase_test.dart:95:48 - argument_type_not_assignable
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:105:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:122:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:139:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:158:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:179:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:196:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:213:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:234:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:255:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:271:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:290:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:307:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:332:37 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:373:37 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:409:37 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:587:37 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:632:37 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:663:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:686:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:713:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:731:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:753:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:775:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:798:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:821:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:840:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:859:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:880:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:952:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:973:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:994:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1015:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1036:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1057:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1078:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1102:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1125:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1201:37 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1284:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1300:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1320:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1338:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1355:27 - unnecessary_underscores
+   info - Unnecessary use of multiple underscores - test\widget\features\notifications\presentation\widgets\pending_request_dialog_test.dart:1375:27 - unnecessary_underscores
+
+flutter : 1138 issues found. (ran in 8.4s)
+At line:1 char:1
++ flutter analyze --no-fatal-infos 2>&1 | Out-File "d:\MyProjects\flutt ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (1138 issues found. (ran in 8.4s): 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
